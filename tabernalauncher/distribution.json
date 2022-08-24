@@ -38,8 +38,8 @@
               "name": "Minecraft Forge (version.json)",
               "type": "VersionManifest",
               "artifact": {
-                "size": 13577,
-                "MD5": "2090bfafdec72f885ddf95300bd96714",
+                "size": 13900,
+                "MD5": "dcf645dd966b26ccb9ad4d45bce1dd7c",
                 "url": "https://el-taberna.com/tabernalauncher/repo/versions/1.16.5-forge-36.2.39/1.16.5-forge-36.2.39.json"
               }
             },
@@ -684,9 +684,9 @@
           "name": "config.txt",
           "type": "File",
           "artifact": {
-            "size": 1998,
+            "size": 2071,
             "url": "https://el-taberna.com/tabernalauncher/servers/Taberna6-1.16.5/files/config/fancymenu/config.txt",
-            "MD5": "390b10eecc552c9c65e1474fef5631a6",
+            "MD5": "5989ba3efccd43486c538fb3a2906a29",
             "path": "config/fancymenu/config.txt"
           }
         },
@@ -695,9 +695,9 @@
           "name": "customizablemenus.txt",
           "type": "File",
           "artifact": {
-            "size": 78,
+            "size": 83,
             "url": "https://el-taberna.com/tabernalauncher/servers/Taberna6-1.16.5/files/config/fancymenu/customizablemenus.txt",
-            "MD5": "07f64ca74b24df0a77c8d840009fed6b",
+            "MD5": "4185fae0b2afc038529ef1eaa35c6352",
             "path": "config/fancymenu/customizablemenus.txt"
           }
         },
@@ -706,9 +706,9 @@
           "name": "MainMenuScreen_1.txt",
           "type": "File",
           "artifact": {
-            "size": 1898,
+            "size": 2023,
             "url": "https://el-taberna.com/tabernalauncher/servers/Taberna6-1.16.5/files/config/fancymenu/customization/.disabled/MainMenuScreen_1.txt",
-            "MD5": "574a11c83080746aa82806b0a18431c5",
+            "MD5": "be97849b6452739ca6561b7855a6f6cd",
             "path": "config/fancymenu/customization/.disabled/MainMenuScreen_1.txt"
           }
         },
@@ -717,9 +717,9 @@
           "name": "1920x1080.txt",
           "type": "File",
           "artifact": {
-            "size": 2068,
+            "size": 2200,
             "url": "https://el-taberna.com/tabernalauncher/servers/Taberna6-1.16.5/files/config/fancymenu/customization/1920x1080.txt",
-            "MD5": "7677745505c5de0e8fdfbe846ad825c3",
+            "MD5": "f0b933fe13fa68c0fc8118f818f9ff31",
             "path": "config/fancymenu/customization/1920x1080.txt"
           }
         },
@@ -728,9 +728,9 @@
           "name": "TF2HudFixed.fhlayout",
           "type": "File",
           "artifact": {
-            "size": 16748,
+            "size": 17611,
             "url": "https://el-taberna.com/tabernalauncher/servers/Taberna6-1.16.5/files/config/fancymenu/fancyhud/customization/TF2HudFixed.fhlayout",
-            "MD5": "a54251475e343cdeea647b6e086d1b86",
+            "MD5": "e992035aa315e60e7219bbd13efb75f4",
             "path": "config/fancymenu/fancyhud/customization/TF2HudFixed.fhlayout"
           }
         },
@@ -739,9 +739,9 @@
           "name": "de_de.local",
           "type": "File",
           "artifact": {
-            "size": 20011,
+            "size": 20331,
             "url": "https://el-taberna.com/tabernalauncher/servers/Taberna6-1.16.5/files/config/fancymenu/locals/de_de.local",
-            "MD5": "f7672ca255f81aa57e8641fd42b0f694",
+            "MD5": "dba06fb969cae5b02fcbecd8078cf8a4",
             "path": "config/fancymenu/locals/de_de.local"
           }
         },
@@ -750,9 +750,9 @@
           "name": "en_us.local",
           "type": "File",
           "artifact": {
-            "size": 19529,
+            "size": 19859,
             "url": "https://el-taberna.com/tabernalauncher/servers/Taberna6-1.16.5/files/config/fancymenu/locals/en_us.local",
-            "MD5": "5614dbbcbc51f0fcba6e5291e7f1643d",
+            "MD5": "669bdfe4ed8cfc52df1d58ab3a77dbc4",
             "path": "config/fancymenu/locals/en_us.local"
           }
         },
@@ -761,9 +761,9 @@
           "name": "pl_pl.local",
           "type": "File",
           "artifact": {
-            "size": 14275,
+            "size": 14514,
             "url": "https://el-taberna.com/tabernalauncher/servers/Taberna6-1.16.5/files/config/fancymenu/locals/pl_pl.local",
-            "MD5": "956b052e15281169f90e9e5bd9b9c3af",
+            "MD5": "3f6d5834919880c09b6fb165863cd12e",
             "path": "config/fancymenu/locals/pl_pl.local"
           }
         },
@@ -772,9 +772,9 @@
           "name": "pt_br.local",
           "type": "File",
           "artifact": {
-            "size": 14690,
+            "size": 14937,
             "url": "https://el-taberna.com/tabernalauncher/servers/Taberna6-1.16.5/files/config/fancymenu/locals/pt_br.local",
-            "MD5": "2e4feed8d5692ef3f657f69453528535",
+            "MD5": "804fcf4091661442678bd45c9ed6f315",
             "path": "config/fancymenu/locals/pt_br.local"
           }
         },
@@ -871,9 +871,9 @@
           "name": "chardata.properties",
           "type": "File",
           "artifact": {
-            "size": 249752,
+            "size": 249753,
             "url": "https://el-taberna.com/tabernalauncher/servers/Taberna6-1.16.5/files/craftpresence/chardata.properties",
-            "MD5": "61208e897aa1be5e0767839617f911f5",
+            "MD5": "101fbf09334fe9cc5689bd0d5fea653c",
             "path": "craftpresence/chardata.properties"
           }
         },
@@ -1020,8 +1020,8 @@
               "name": "Minecraft Forge (version.json)",
               "type": "VersionManifest",
               "artifact": {
-                "size": 14248,
-                "MD5": "4f28f200560f381663813bf9620325c1",
+                "size": 14570,
+                "MD5": "bc5c0ff35bf429099900a9e983b3b77c",
                 "url": "https://el-taberna.com/tabernalauncher/repo/versions/1.18.2-forge-40.1.73/1.18.2-forge-40.1.73.json"
               }
             },
@@ -1393,6 +1393,16 @@
             "size": 2171166,
             "url": "https://el-taberna.com/tabernalauncher/servers/Taberna7-1.18.2/forgemods/required/cfm-7.0.0-pre29-1.18.2.jar",
             "MD5": "44955fa7fbe27850e97a0430c5feb629"
+          }
+        },
+        {
+          "id": "ga.hallzmine:cityblocks:1.4.4@jar",
+          "name": "Hallzmine's City Blocks",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 316595,
+            "url": "https://el-taberna.com/tabernalauncher/servers/Taberna7-1.18.2/forgemods/required/cityblocks-1.4.4.jar",
+            "MD5": "1ab555d57bcb8f50d1979904b85477dc"
           }
         },
         {
