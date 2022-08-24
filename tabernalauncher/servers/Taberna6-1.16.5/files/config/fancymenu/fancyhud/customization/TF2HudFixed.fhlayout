@@ -1,0 +1,863 @@
+type = hud
+
+customization-meta {
+  renderorder = foreground
+}
+
+customization {
+  orientation = top-right
+  visible = false
+  x = -121
+  action = editplayerhealthbar
+  y = 292
+  scale = 2.0
+}
+
+customization {
+  visible = false
+  x = 1
+  action = editexperiencebar
+  y = -111
+}
+
+customization {
+  visible = false
+  x = 110
+  action = editarmorbar
+  y = -185
+}
+
+customization {
+  visible = false
+  x = 202
+  action = editairbar
+  y = -179
+}
+
+customization {
+  x = 174
+  action = editoverlaymessage
+  y = -3
+}
+
+customization {
+  visible = false
+  x = -40
+  action = edithotbar
+  y = -9
+}
+
+customization {
+  visible = false
+  x = 182
+  action = editplayerfoodbar
+  y = -76
+}
+
+customization {
+  orientation = top-right
+  x = -216
+  action = edittitle
+  y = 31
+}
+
+customization {
+  orientation = top-right
+  x = -214
+  action = editsubtitle
+  y = 77
+}
+
+customization {
+  x = 0
+  action = editbosshealth
+  y = 20
+}
+
+customization {
+  x = 389
+  action = editselecteditemname
+  y = -24
+}
+
+customization {
+  visible = false
+  x = -365
+  action = editsidebar
+  y = -14
+}
+
+customization {
+  path = assets/Huds/inventoryhud.png
+  orientation = top-right
+  x = -30
+  width = 35
+  action = addtexture
+  actionid = ac013c1c-780b-4068-a576-2a010e09eaad1625066994048
+  y = 252
+  vr:showif:activeslot = true
+  vr:value:activeslot = 4
+  height = 35
+}
+
+customization {
+  path = assets/Huds/inventoryhud.png
+  orientation = top-right
+  x = -30
+  width = 35
+  action = addtexture
+  actionid = b429c9a9-90ed-4f4f-9ad8-389da1615c5c1625066994048
+  y = 287
+  vr:showif:activeslot = true
+  vr:value:activeslot = 5
+  height = 35
+}
+
+customization {
+  path = assets/Huds/weapondisplayhud.png
+  orientation = bottom-right
+  x = -5
+  width = 171
+  action = addtexture
+  actionid = f611c527-a0c0-424a-8812-0ee06759538d1625048232304
+  y = -6
+  height = 82
+  vr:showif:iteminmainhand = true
+}
+
+customization {
+  path = assets/Huds/inventoryhud.png
+  orientation = top-right
+  x = -30
+  width = 35
+  action = addtexture
+  actionid = 76ab9252-ee91-4641-a6c9-37290d66b01b1625066994048
+  y = 357
+  vr:showif:activeslot = true
+  vr:value:activeslot = 7
+  height = 35
+}
+
+customization {
+  path = assets/Huds/hudexp.png
+  orientation = bottom-right
+  x = -164
+  width = 68
+  action = addtexture
+  actionid = e3128485-0fdf-4b9f-ae7a-d8747093edfe1625047909789
+  y = -6
+  height = 39
+}
+
+customization {
+  path = assets/Huds/inventoryhud.png
+  orientation = top-right
+  x = -30
+  width = 35
+  action = addtexture
+  actionid = 8277564a-4496-431d-ba1b-96f7e241acdd1625066994048
+  y = 182
+  vr:showif:activeslot = true
+  vr:value:activeslot = 2
+  height = 35
+}
+
+customization {
+  orientation = bottom-right
+  x = -174
+  width = 51
+  y = -20
+  action = addcustomexpbar
+  height = 8
+  direction = right
+  barcolor = #ffffff
+  backgroundcolor = #5c5c5c80
+}
+
+customization {
+  path = assets/Huds/tf2huds.png
+  orientation = bottom-left
+  x = 0
+  width = 182
+  action = addtexture
+  actionid = d88287f0-026b-4df1-817c-3cda4d4e7d731625049123793
+  y = 0
+  height = 124
+}
+
+customization {
+  orientation = bottom-left
+  x = 19
+  action = addmirroredplayer
+  actionid = a3f63395-7441-4d47-9b5a-3dc20204b6671625047050504
+  y = 46
+  scale = 90.0
+  rotateplayer = false
+  headrotationy = -4.0
+  headrotationx = 150.0
+  bodyrotationx = 150.0
+  bodyrotationy = 0.0
+}
+
+customization {
+  orientation = bottom-left
+  bartexture = assets/Huds/health.png
+  x = 95
+  width = 64
+  y = -44
+  action = addcustomhealthbar
+  backgroundtexture = assets/Huds/nothing.png
+  height = 64
+  direction = up
+  barcolor = #fc5142
+  backgroundcolor = #5c5c5c80
+  hidewhenfull = false
+}
+
+customization {
+  vr:showif:creative = false
+  orientation = bottom-left
+  shadow = true
+  x = 116
+  action = addtext
+  actionid = 91091568-6fe0-45df-8a41-390411decc591625049583085
+  y = -67
+  scale = 1.8
+  alignment = left
+  value = %currenthealth%
+}
+
+customization {
+  orientation = bottom-right
+  shadow = true
+  x = -189
+  action = addtext
+  actionid = 3a4a7a6d-24c5-4d53-a00b-bb573906daa41625050044429
+  y = -19
+  scale = 1.0
+  alignment = left
+  value = %level%
+}
+
+customization {
+  path = assets/Huds/armorbarhud.png
+  orientation = bottom-left
+  x = 141
+  width = 124
+  action = addtexture
+  actionid = a03c809f-11c8-4a0c-adef-60813df972711625059416800
+  y = -6
+  height = 56
+}
+
+customization {
+  orientation = bottom-left
+  bartexture = assets/Huds/bars.png
+  backgroundtexture = assets/Huds/nothing.png
+  hidewhenempty = false
+  barcolor = #adadad
+  backgroundcolor = #5c5c5c80
+  maxarmor = 20
+  x = 184
+  width = 60
+  y = -13
+  action = addcustomarmorbar
+  height = 14
+  direction = right
+}
+
+customization {
+  path = assets/Huds/inventoryhud.png
+  orientation = top-right
+  x = -30
+  width = 35
+  action = addtexture
+  actionid = aa494ac5-3a6b-4d68-9c5b-14bc500705b81625067930797
+  y = 392
+  vr:showif:activeslot = true
+  vr:value:activeslot = 8
+  height = 35
+}
+
+customization {
+  path = assets/Huds/inventoryhud.png
+  orientation = top-right
+  x = -22
+  width = 35
+  action = addtexture
+  actionid = 76690184-4f7f-4d22-ac7d-a9397347adcc1625066316762
+  y = 357
+  vr:showif:activeslot = false
+  vr:value:activeslot = 7
+  height = 35
+}
+
+customization {
+  orientation = bottom-left
+  shadow = false
+  x = 212
+  action = addtext
+  actionid = 6b69e7b4-1176-4258-bc04-6cfd4ca5dc8e1625059602180
+  y = -29
+  scale = 1.0
+  alignment = left
+  value = %currentarmor%
+}
+
+customization {
+  path = assets/Huds/inventoryhud.png
+  orientation = top-right
+  x = -22
+  width = 35
+  action = addtexture
+  actionid = 12733b38-968e-4a3d-82c4-1cdd2dfd05571625066496102
+  y = 322
+  vr:showif:activeslot = false
+  vr:value:activeslot = 6
+  height = 35
+}
+
+customization {
+  path = assets/Huds/inventoryhud.png
+  orientation = top-right
+  x = -30
+  width = 35
+  action = addtexture
+  actionid = dd93c2ce-6ff6-4dd4-8486-d45f81f9fa851625066994048
+  y = 216
+  vr:showif:activeslot = true
+  vr:value:activeslot = 3
+  height = 35
+}
+
+customization {
+  path = assets/Huds/inventoryhud.png
+  orientation = top-right
+  x = -22
+  width = 35
+  action = addtexture
+  actionid = f0d18cbd-61b4-4522-ae26-9a798abc8e7c1625066528397
+  y = 288
+  vr:showif:activeslot = false
+  vr:value:activeslot = 5
+  height = 35
+}
+
+customization {
+  path = assets/Huds/inventoryhud.png
+  orientation = top-right
+  x = -22
+  width = 35
+  action = addtexture
+  actionid = 093e54d8-52b7-4d2d-9989-3b714fbff31b1625066594673
+  y = 216
+  vr:showif:activeslot = false
+  vr:value:activeslot = 3
+  height = 35
+}
+
+customization {
+  path = assets/Huds/inventoryhud.png
+  orientation = top-right
+  x = -30
+  width = 35
+  action = addtexture
+  actionid = 9b916013-7bf2-4acd-8b5b-dbe4b1644f951625066994048
+  y = 322
+  vr:showif:activeslot = true
+  vr:value:activeslot = 6
+  height = 35
+}
+
+customization {
+  path = assets/Huds/inventoryhud.png
+  orientation = top-right
+  x = -22
+  width = 35
+  action = addtexture
+  actionid = f0369f1d-f5bb-4782-a883-549198c8d8b41625065479228
+  y = 392
+  vr:showif:activeslot = false
+  vr:value:activeslot = 8
+  height = 35
+}
+
+customization {
+  path = assets/Huds/inventoryhud.png
+  orientation = top-right
+  x = -22
+  width = 35
+  action = addtexture
+  actionid = 81a93b35-3384-4663-93c5-8e418f170d501625066608108
+  y = 182
+  vr:showif:activeslot = false
+  vr:value:activeslot = 2
+  height = 35
+}
+
+customization {
+  path = assets/Huds/inventoryhud.png
+  orientation = top-right
+  x = -30
+  width = 35
+  action = addtexture
+  actionid = 5b244be2-7751-421e-9230-963724f7070c1625066994048
+  y = 111
+  vr:showif:activeslot = true
+  vr:value:activeslot = 0
+  height = 35
+}
+
+customization {
+  path = assets/Huds/inventoryhud.png
+  orientation = top-right
+  x = -22
+  width = 35
+  action = addtexture
+  actionid = 374bd2bd-94b8-43a8-b699-78ec6923f6311625066550009
+  y = 252
+  vr:showif:activeslot = false
+  vr:value:activeslot = 4
+  height = 35
+}
+
+customization {
+  path = assets/Huds/inventoryhud.png
+  orientation = top-right
+  x = -30
+  width = 35
+  action = addtexture
+  actionid = 039d9d48-b371-4f64-8239-0ec9637a4c321625066994048
+  y = 147
+  vr:showif:activeslot = true
+  vr:value:activeslot = 1
+  height = 35
+}
+
+customization {
+  path = assets/Huds/inventoryhud.png
+  orientation = top-right
+  x = -22
+  width = 35
+  action = addtexture
+  actionid = 83062ee4-cf6a-4c5b-9c20-b25e79d385a71625066617920
+  y = 147
+  vr:showif:activeslot = false
+  vr:value:activeslot = 1
+  height = 35
+}
+
+customization {
+  path = assets/Huds/inventoryhud.png
+  orientation = top-right
+  x = -22
+  width = 35
+  action = addtexture
+  actionid = e6aeb693-7900-4063-a6a9-decd64d639811625066631596
+  y = 111
+  vr:showif:activeslot = false
+  vr:value:activeslot = 0
+  height = 35
+}
+
+customization {
+  renderstacksize = true
+  orientation = bottom-right
+  renderdurability = true
+  x = -57
+  action = additemstack
+  actionid = 5a12abd1-56d7-4d01-8c39-f4f9c294be271625064389773
+  y = -14
+  scale = 3.0
+  slot = -1
+  vr:showif:activeslot = false
+  vr:value:activeslot = -1
+  vr:showif:iteminmainhand = true
+}
+
+customization {
+  renderstacksize = true
+  orientation = top-right
+  renderdurability = true
+  x = -25
+  action = additemstack
+  actionid = 481898fe-cd1f-4bbc-b74b-81f617617b8d1625064705884
+  y = 150
+  scale = 1.5
+  slot = 1
+  vr:showif:activeslot = false
+  vr:value:activeslot = 1
+}
+
+customization {
+  renderstacksize = true
+  orientation = top-right
+  renderdurability = true
+  x = -25
+  action = additemstack
+  actionid = 1d5674d0-1d1f-4a71-89f8-51e39db038771625064877423
+  y = 325
+  scale = 1.5
+  slot = 6
+  vr:showif:activeslot = false
+  vr:value:activeslot = 6
+}
+
+customization {
+  renderstacksize = true
+  orientation = top-right
+  renderdurability = true
+  x = -25
+  action = additemstack
+  actionid = a7cc34ab-4ed6-41e0-bc94-a883ac01e98b1625064878449
+  y = 255
+  scale = 1.5
+  slot = 4
+  vr:showif:activeslot = false
+  vr:value:activeslot = 4
+}
+
+customization {
+  renderstacksize = true
+  orientation = top-right
+  renderdurability = true
+  x = -25
+  action = additemstack
+  actionid = 3816c843-7311-42fc-a89d-3e62f43fe0c21625064879484
+  y = 185
+  scale = 1.5
+  slot = 2
+  vr:showif:activeslot = false
+  vr:value:activeslot = 2
+}
+
+customization {
+  renderstacksize = true
+  orientation = top-right
+  renderdurability = true
+  x = -25
+  action = additemstack
+  actionid = 00e4664e-ea3d-44f2-ac71-1407d296aa521625064880171
+  y = 115
+  scale = 1.5
+  slot = 0
+  vr:showif:activeslot = false
+  vr:value:activeslot = 0
+}
+
+customization {
+  renderstacksize = true
+  orientation = top-right
+  renderdurability = true
+  x = -25
+  action = additemstack
+  actionid = 061ebb8d-2855-42a3-876d-a7b6a964b25c1625065544810
+  y = 219
+  scale = 1.5
+  slot = 3
+  vr:showif:activeslot = false
+  vr:value:activeslot = 3
+}
+
+customization {
+  renderstacksize = true
+  orientation = top-right
+  renderdurability = true
+  x = -25
+  action = additemstack
+  actionid = 8560afd3-e004-4c64-8507-f2d0a6e009191625065555267
+  y = 360
+  scale = 1.5
+  slot = 7
+  vr:showif:activeslot = false
+  vr:value:activeslot = 7
+}
+
+customization {
+  path = assets/Huds/inventoryhud.png
+  orientation = top-right
+  vr:showif:iteminoffhand = true
+  x = -68
+  width = 35
+  action = addtexture
+  actionid = 09faaa00-05e4-4a3a-9359-54d0d344a2681625076655146
+  y = 393
+  height = 35
+}
+
+customization {
+  renderstacksize = true
+  orientation = top-right
+  renderdurability = true
+  x = -25
+  action = additemstack
+  actionid = 8810ecfc-2d33-4648-b96f-30cf3f6358a31625065557731
+  y = 395
+  scale = 1.5
+  slot = 8
+  vr:showif:activeslot = false
+  vr:value:activeslot = 8
+}
+
+customization {
+  renderstacksize = true
+  orientation = top-right
+  renderdurability = true
+  x = -25
+  action = additemstack
+  actionid = 92b0df53-526f-4d49-97cb-23800f8798001625065562697
+  y = 290
+  scale = 1.5
+  slot = 5
+  vr:showif:activeslot = false
+  vr:value:activeslot = 5
+}
+
+customization {
+  renderstacksize = true
+  orientation = top-right
+  renderdurability = true
+  x = -33
+  action = additemstack
+  actionid = e37301aa-ec9c-4623-858f-d68d0201e5391625066994048
+  y = 395
+  scale = 1.5
+  slot = 8
+  vr:showif:activeslot = true
+  vr:value:activeslot = 8
+  vr:showif:iteminmainhand = true
+}
+
+customization {
+  renderstacksize = true
+  orientation = top-right
+  renderdurability = true
+  x = -33
+  action = additemstack
+  actionid = b4ec5e94-fa03-4bca-be69-78e8671800421625066994048
+  y = 325
+  scale = 1.5
+  slot = 6
+  vr:showif:activeslot = true
+  vr:value:activeslot = 6
+}
+
+customization {
+  renderstacksize = true
+  orientation = top-right
+  renderdurability = true
+  x = -33
+  action = additemstack
+  actionid = 3eb74821-bba2-424f-93a8-1f7fc8a2bbce1625066994048
+  y = 360
+  scale = 1.5
+  slot = 7
+  vr:showif:activeslot = true
+  vr:value:activeslot = 7
+}
+
+customization {
+  renderstacksize = true
+  orientation = top-right
+  renderdurability = true
+  x = -33
+  action = additemstack
+  actionid = acb68822-1587-4b0f-97c7-37d219b438341625066994048
+  y = 290
+  scale = 1.5
+  slot = 5
+  vr:showif:activeslot = true
+  vr:value:activeslot = 5
+}
+
+customization {
+  renderstacksize = true
+  orientation = top-right
+  renderdurability = true
+  x = -33
+  action = additemstack
+  actionid = 1713d4c6-468d-4f2c-a966-c85bd008c2e11625066994048
+  y = 255
+  scale = 1.5
+  slot = 4
+  vr:showif:activeslot = true
+  vr:value:activeslot = 4
+}
+
+customization {
+  renderstacksize = true
+  orientation = top-right
+  renderdurability = true
+  x = -33
+  action = additemstack
+  actionid = c6b8b57f-3006-4f4f-9f91-0f56ea6534df1625066994048
+  y = 220
+  scale = 1.5
+  slot = 3
+  vr:showif:activeslot = true
+  vr:value:activeslot = 3
+}
+
+customization {
+  renderstacksize = true
+  orientation = top-right
+  renderdurability = true
+  x = -33
+  action = additemstack
+  actionid = 35533e5b-1871-450e-a006-30e52e391bf41625066994048
+  y = 185
+  scale = 1.5
+  slot = 2
+  vr:showif:activeslot = true
+  vr:value:activeslot = 2
+}
+
+customization {
+  renderstacksize = true
+  orientation = top-right
+  renderdurability = true
+  x = -33
+  action = additemstack
+  actionid = d6faf09b-da48-4d16-87ca-760123566b691625066994048
+  y = 150
+  scale = 1.5
+  slot = 1
+  vr:showif:activeslot = true
+  vr:value:activeslot = 1
+}
+
+customization {
+  renderstacksize = true
+  orientation = top-right
+  renderdurability = true
+  x = -33
+  action = additemstack
+  actionid = a2e88441-12a0-44c1-a6a2-3e520e933db71625066994048
+  y = 115
+  scale = 1.5
+  slot = 0
+  vr:showif:activeslot = true
+  vr:value:activeslot = 0
+}
+
+customization {
+  path = assets/Huds/hunger.png
+  orientation = top-left
+  x = 0
+  width = 140
+  action = addtexture
+  actionid = cc4b6225-96a4-43e3-aaa8-2f11cda9be871625075714137
+  y = 20
+  height = 35
+}
+
+customization {
+  orientation = top-left
+  bartexture = assets/Huds/hungerbar.png
+  backgroundtexture = assets/Huds/nothing.png
+  barcolor = #f0cc00
+  backgroundcolor = #5c5c5c80
+  x = 30
+  width = 100
+  y = 33
+  action = addcustomfoodbar
+  maxfood = 20
+  height = 11
+  direction = right
+  hidewhenfull = false
+}
+
+customization {
+  orientation = top-left
+  shadow = false
+  x = 65
+  action = addtext
+  actionid = 5f2224a1-eabb-4576-ab8a-c66b8fa9daab1625075830246
+  y = 26
+  scale = 0.8
+  alignment = left
+  value = %currentfood%
+}
+
+customization {
+  path = assets/Huds/horse.png
+  orientation = top-left
+  vr:showif:playerisridinghorse = true
+  x = 1
+  width = 139
+  action = addtexture
+  actionid = bfa593e9-3784-4383-864e-9cb115a722251625075880021
+  y = 54
+  vr:showif:playerisridingentity = true
+  height = 67
+}
+
+customization {
+  orientation = top-left
+  bartexture = assets/Huds/horsehealth.png
+  vr:showif:playerisridingentity = true
+  barcolor = #fc5142
+  backgroundcolor = #5c5c5c80
+  vr:showif:playerisridinghorse = true
+  x = 17
+  width = 8
+  y = 59
+  action = addcustommounthealthbar
+  height = 58
+  direction = up
+  hidewhenfull = false
+}
+
+customization {
+  orientation = top-left
+  bartexture = assets/Huds/hungerbar.png
+  x = 30
+  width = 100
+  y = 112
+  action = addcustommountjumpbar
+  height = 4
+  direction = right
+  barcolor = #bd34eb
+  backgroundcolor = #5c5c5c80
+}
+
+customization {
+  path = assets/Huds/water.png
+  orientation = top-left
+  x = 4
+  width = 81
+  action = addtexture
+  actionid = 28733aa3-4b8e-4dd2-959c-a0ddaefa8a281625079074964
+  y = 119
+  height = 44
+  vr:showif:playerunderwater = true
+}
+
+customization {
+  renderstacksize = true
+  orientation = top-right
+  renderdurability = true
+  vr:showif:iteminoffhand = true
+  x = -71
+  action = additemstack
+  actionid = 31c18d22-6b49-4987-b994-b39b922e4c271625076655146
+  y = 396
+  scale = 1.5
+  slot = 40
+}
+
+customization {
+  orientation = top-left
+  bartexture = assets/Huds/waterbar.png
+  x = 8
+  width = 72
+  y = 124
+  action = addcustomairbar
+  backgroundtexture = assets/Huds/nothing.png
+  height = 23
+  direction = right
+  barcolor = #58e8ed
+  backgroundcolor = #5c5c5c80
+  hidewhenfull = true
+}
+

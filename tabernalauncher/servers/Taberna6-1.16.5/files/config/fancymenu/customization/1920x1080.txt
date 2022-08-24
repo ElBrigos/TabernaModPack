@@ -1,0 +1,132 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screen.MainMenuScreen
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  name = background
+  action = setbackgroundslideshow
+}
+
+customization {
+  action = setscale
+  scale = 2
+}
+
+customization {
+  baseheight = 1080
+  action = autoscale
+  basewidth = 1920
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=400322%
+  orientation = bottom-centered
+  x = -272
+  action = movebutton
+  y = -77
+}
+
+customization {
+  identifier = %id=400322%
+  width = 130
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=400322%
+  action = setbuttonlabel
+  value = Non-Official Server
+}
+
+customization {
+  identifier = %id=604382%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=400382%
+  orientation = bottom-centered
+  x = 142
+  action = movebutton
+  y = -77
+}
+
+customization {
+  identifier = %id=400382%
+  width = 130
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=502382%
+  orientation = bottom-right
+  x = -206
+  action = movebutton
+  y = -77
+}
+
+customization {
+  identifier = %id=502382%
+  width = 131
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=376382%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=400298%
+  orientation = bottom-left
+  x = 76
+  action = movebutton
+  y = -77
+}
+
+customization {
+  identifier = %id=400298%
+  width = 130
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=400346%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=502346%
+  action = hidebutton
+}
+
+customization {
+  orientation = bottom-centered
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = joinserver
+  x = -140
+  width = 280
+  actionid = 98b042f9-3e3f-48d5-a700-279bb03177471618152085274
+  action = addbutton
+  y = -77
+  label = Taberna Official Server
+  value = private.el-taberna.com:25565
+  height = 20
+}
+

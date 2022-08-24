@@ -1,0 +1,125 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screen.MainMenuScreen
+  biggerthanwidth = 1920
+  smallerthanheight = 1016
+  renderorder = foreground
+  smallerthanwidth = 1920
+  biggerthanheight = 1017
+}
+
+customization {
+  path = config/fancymenu/ressources/background.png
+  action = texturizebackground
+}
+
+customization {
+  action = setscale
+  scale = 2
+}
+
+customization {
+  identifier = %id=400322%
+  orientation = top-left
+  x = 278
+  action = movebutton
+  y = 0
+}
+
+customization {
+  identifier = %id=400322%
+  width = 130
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=400322%
+  action = setbuttonlabel
+  value = Non-Official Server
+}
+
+customization {
+  identifier = %id=400382%
+  orientation = top-left
+  x = 417
+  action = movebutton
+  y = 0
+}
+
+customization {
+  identifier = %id=400382%
+  width = 130
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=502382%
+  orientation = top-left
+  x = 557
+  action = movebutton
+  y = 0
+}
+
+customization {
+  identifier = %id=502382%
+  width = 131
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=400298%
+  orientation = top-left
+  x = 0
+  action = movebutton
+  y = 0
+}
+
+customization {
+  identifier = %id=400298%
+  width = 130
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=400298%
+  action = setbuttonlabel
+  value = Singleplayer
+}
+
+customization {
+  identifier = %id=376382%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=604382%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=400346%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=502346%
+  action = hidebutton
+}
+
+customization {
+  orientation = top-left
+  buttonaction = joinserver
+  x = 139
+  width = 130
+  action = addbutton
+  y = 0
+  label = Taberna Official Server
+  value = private.el-taberna.com:25565
+  height = 20
+}
+

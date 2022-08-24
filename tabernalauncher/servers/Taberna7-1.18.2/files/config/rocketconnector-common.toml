@@ -1,0 +1,4 @@
+enabled = false
+#Internal
+serviceName = "_gateway._tcp.rocket.tarbits.co.uk"
+

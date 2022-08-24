@@ -1,0 +1,1655 @@
+{
+  "version": "1.0.0",
+  "rss": "<LINK TO RSS FEED>",
+  "discord": {
+    "clientId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+    "smallImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+    "smallImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+  },
+  "servers": [
+    {
+      "id": "Taberna6-1.16.5",
+      "name": "Taberna 6 (Minecraft 1.16.5)",
+      "description": "Taberna 6 fonctionne sous Minecraft 1.16.5 (Forge v36.2.39)",
+      "icon": "https://el-taberna.com/tabernalauncher/servers/Taberna6-1.16.5/tabernalauncher.png",
+      "version": "6.9.0",
+      "address": "localhost:25565",
+      "minecraftVersion": "1.16.5",
+      "discord": {
+        "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+      },
+      "mainServer": false,
+      "autoconnect": false,
+      "modules": [
+        {
+          "id": "net.minecraftforge:forge:1.16.5-36.2.39",
+          "name": "Minecraft Forge (base jar)",
+          "type": "ForgeHosted",
+          "artifact": {
+            "size": 212574,
+            "MD5": "4afee0135f47547182faa2ea88efebac",
+            "url": "https://el-taberna.com/tabernalauncher/repo/lib/net/minecraftforge/forge/1.16.5-36.2.39/forge-1.16.5-36.2.39.jar"
+          },
+          "subModules": [
+            {
+              "id": "1.16.5-36.2.39",
+              "name": "Minecraft Forge (version.json)",
+              "type": "VersionManifest",
+              "artifact": {
+                "size": 13577,
+                "MD5": "2090bfafdec72f885ddf95300bd96714",
+                "url": "https://el-taberna.com/tabernalauncher/repo/versions/1.16.5-forge-36.2.39/1.16.5-forge-36.2.39.json"
+              }
+            },
+            {
+              "id": "net.minecraftforge:forge:1.16.5-36.2.39:universal",
+              "name": "Minecraft Forge (universal jar)",
+              "type": "Library",
+              "artifact": {
+                "size": 2504067,
+                "MD5": "3337e44edf13c5759548623b5866b967",
+                "url": "https://el-taberna.com/tabernalauncher/repo/lib/net/minecraftforge/forge/1.16.5-36.2.39/forge-1.16.5-36.2.39-universal.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraftforge:forge:1.16.5-36.2.39:client",
+              "name": "Minecraft Forge (client jar)",
+              "type": "Library",
+              "artifact": {
+                "size": 4216473,
+                "MD5": "253bbbe4aa8a7752615ea759fa178c80",
+                "url": "https://el-taberna.com/tabernalauncher/repo/lib/net/minecraftforge/forge/1.16.5-36.2.39/forge-1.16.5-36.2.39-client.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraft:client:1.16.5-20210115.111550:srg",
+              "name": "Minecraft Forge (client srg)",
+              "type": "Library",
+              "artifact": {
+                "size": 11352644,
+                "MD5": "e364b819944fc5b0eb786e2bcf330662",
+                "url": "https://el-taberna.com/tabernalauncher/repo/lib/net/minecraft/client/1.16.5-20210115.111550/client-1.16.5-20210115.111550-srg.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraft:client:1.16.5-20210115.111550:slim",
+              "name": "Minecraft Forge (client slim)",
+              "type": "Library",
+              "artifact": {
+                "size": 9118806,
+                "MD5": "df78297c0b6526e16f2bb7a685fd6b96",
+                "url": "https://el-taberna.com/tabernalauncher/repo/lib/net/minecraft/client/1.16.5-20210115.111550/client-1.16.5-20210115.111550-slim.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraft:client:1.16.5-20210115.111550:extra",
+              "name": "Minecraft Forge (client extra)",
+              "type": "Library",
+              "artifact": {
+                "size": 8428369,
+                "MD5": "dbed747390f81e10cee40500b726431a",
+                "url": "https://el-taberna.com/tabernalauncher/repo/lib/net/minecraft/client/1.16.5-20210115.111550/client-1.16.5-20210115.111550-extra.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "org.ow2.asm:asm:9.1",
+              "name": "Minecraft Forge (asm)",
+              "type": "Library",
+              "artifact": {
+                "size": 121790,
+                "MD5": "54b9f5d15e4877a4ea4cf9ec48e07afa",
+                "url": "https://el-taberna.com/tabernalauncher/repo/lib/org/ow2/asm/asm/9.1/asm-9.1.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-commons:9.1",
+              "name": "Minecraft Forge (asm-commons)",
+              "type": "Library",
+              "artifact": {
+                "size": 72641,
+                "MD5": "81cc6b8f5ce8f2767d39fbd4b6c37a6a",
+                "url": "https://el-taberna.com/tabernalauncher/repo/lib/org/ow2/asm/asm-commons/9.1/asm-commons-9.1.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-tree:9.1",
+              "name": "Minecraft Forge (asm-tree)",
+              "type": "Library",
+              "artifact": {
+                "size": 52662,
+                "MD5": "c2536add9ebcfa8066fcfb0dbe865879",
+                "url": "https://el-taberna.com/tabernalauncher/repo/lib/org/ow2/asm/asm-tree/9.1/asm-tree-9.1.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-util:9.1",
+              "name": "Minecraft Forge (asm-util)",
+              "type": "Library",
+              "artifact": {
+                "size": 84679,
+                "MD5": "2f1a28f6b0f3e02b17d38a0f657a1527",
+                "url": "https://el-taberna.com/tabernalauncher/repo/lib/org/ow2/asm/asm-util/9.1/asm-util-9.1.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-analysis:9.1",
+              "name": "Minecraft Forge (asm-analysis)",
+              "type": "Library",
+              "artifact": {
+                "size": 34257,
+                "MD5": "f0e82941173b6049c03e8214ace70ecd",
+                "url": "https://el-taberna.com/tabernalauncher/repo/lib/org/ow2/asm/asm-analysis/9.1/asm-analysis-9.1.jar"
+              }
+            },
+            {
+              "id": "cpw.mods:modlauncher:8.1.3",
+              "name": "Minecraft Forge (modlauncher)",
+              "type": "Library",
+              "artifact": {
+                "size": 126747,
+                "MD5": "b6ba74224a6a68e6fb3e9cf3d72b9344",
+                "url": "https://el-taberna.com/tabernalauncher/repo/lib/cpw/mods/modlauncher/8.1.3/modlauncher-8.1.3.jar"
+              }
+            },
+            {
+              "id": "cpw.mods:grossjava9hacks:1.3.3",
+              "name": "Minecraft Forge (grossjava9hacks)",
+              "type": "Library",
+              "artifact": {
+                "size": 2113,
+                "MD5": "d19b487241008d8e6111137a289ea1d7",
+                "url": "https://el-taberna.com/tabernalauncher/repo/lib/cpw/mods/grossjava9hacks/1.3.3/grossjava9hacks-1.3.3.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:accesstransformers:3.0.1",
+              "name": "Minecraft Forge (accesstransformers)",
+              "type": "Library",
+              "artifact": {
+                "size": 76586,
+                "MD5": "ada4c365c3d0de73c05a94010432b547",
+                "url": "https://el-taberna.com/tabernalauncher/repo/lib/net/minecraftforge/accesstransformers/3.0.1/accesstransformers-3.0.1.jar"
+              }
+            },
+            {
+              "id": "org.antlr:antlr4-runtime:4.9.1",
+              "name": "Minecraft Forge (antlr4-runtime)",
+              "type": "Library",
+              "artifact": {
+                "size": 337868,
+                "MD5": "0dcc4b860d5d8d2852ab94d58c56ca2d",
+                "url": "https://el-taberna.com/tabernalauncher/repo/lib/org/antlr/antlr4-runtime/4.9.1/antlr4-runtime-4.9.1.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:eventbus:4.0.0",
+              "name": "Minecraft Forge (eventbus)",
+              "type": "Library",
+              "artifact": {
+                "size": 42873,
+                "MD5": "84c4758e6139b70146104be5bb1300b5",
+                "url": "https://el-taberna.com/tabernalauncher/repo/lib/net/minecraftforge/eventbus/4.0.0/eventbus-4.0.0.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:forgespi:3.2.0",
+              "name": "Minecraft Forge (forgespi)",
+              "type": "Library",
+              "artifact": {
+                "size": 20172,
+                "MD5": "8f1f6942d17d88d704324e8000666a1a",
+                "url": "https://el-taberna.com/tabernalauncher/repo/lib/net/minecraftforge/forgespi/3.2.0/forgespi-3.2.0.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:coremods:4.0.6",
+              "name": "Minecraft Forge (coremods)",
+              "type": "Library",
+              "artifact": {
+                "size": 25453,
+                "MD5": "e56551f2586d3ff08beb24f5ea44a7d3",
+                "url": "https://el-taberna.com/tabernalauncher/repo/lib/net/minecraftforge/coremods/4.0.6/coremods-4.0.6.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:unsafe:0.2.0",
+              "name": "Minecraft Forge (unsafe)",
+              "type": "Library",
+              "artifact": {
+                "size": 2834,
+                "MD5": "2d1016ebe4c1a63dd50a59d26bd12db1",
+                "url": "https://el-taberna.com/tabernalauncher/repo/lib/net/minecraftforge/unsafe/0.2.0/unsafe-0.2.0.jar"
+              }
+            },
+            {
+              "id": "com.electronwill.night-config:core:3.6.3",
+              "name": "Minecraft Forge (core)",
+              "type": "Library",
+              "artifact": {
+                "size": 199091,
+                "MD5": "093b0ca357d3f8b922170b8d7f43948c",
+                "url": "https://el-taberna.com/tabernalauncher/repo/lib/com/electronwill/night-config/core/3.6.3/core-3.6.3.jar"
+              }
+            },
+            {
+              "id": "com.electronwill.night-config:toml:3.6.3",
+              "name": "Minecraft Forge (toml)",
+              "type": "Library",
+              "artifact": {
+                "size": 31288,
+                "MD5": "615b8e62371c536f876764591990118d",
+                "url": "https://el-taberna.com/tabernalauncher/repo/lib/com/electronwill/night-config/toml/3.6.3/toml-3.6.3.jar"
+              }
+            },
+            {
+              "id": "org.jline:jline:3.12.1",
+              "name": "Minecraft Forge (jline)",
+              "type": "Library",
+              "artifact": {
+                "size": 732926,
+                "MD5": "ffd8c9d6eb8a8456ef505c8ef9fc777d",
+                "url": "https://el-taberna.com/tabernalauncher/repo/lib/org/jline/jline/3.12.1/jline-3.12.1.jar"
+              }
+            },
+            {
+              "id": "org.apache.maven:maven-artifact:3.6.3",
+              "name": "Minecraft Forge (maven-artifact)",
+              "type": "Library",
+              "artifact": {
+                "size": 57824,
+                "MD5": "b83c1943a0783f3f81d4cd4c83c363e1",
+                "url": "https://el-taberna.com/tabernalauncher/repo/lib/org/apache/maven/maven-artifact/3.6.3/maven-artifact-3.6.3.jar"
+              }
+            },
+            {
+              "id": "net.jodah:typetools:0.8.3",
+              "name": "Minecraft Forge (typetools)",
+              "type": "Library",
+              "artifact": {
+                "size": 15425,
+                "MD5": "ee4596e1413cc1a5e080c971d6064753",
+                "url": "https://el-taberna.com/tabernalauncher/repo/lib/net/jodah/typetools/0.8.3/typetools-0.8.3.jar"
+              }
+            },
+            {
+              "id": "org.apache.logging.log4j:log4j-api:2.15.0",
+              "name": "Minecraft Forge (log4j-api)",
+              "type": "Library",
+              "artifact": {
+                "size": 301804,
+                "MD5": "a9ccfa7e3382dd2b9e0647a43d8286d7",
+                "url": "https://el-taberna.com/tabernalauncher/repo/lib/org/apache/logging/log4j/log4j-api/2.15.0/log4j-api-2.15.0.jar"
+              }
+            },
+            {
+              "id": "org.apache.logging.log4j:log4j-core:2.15.0",
+              "name": "Minecraft Forge (log4j-core)",
+              "type": "Library",
+              "artifact": {
+                "size": 1789769,
+                "MD5": "81e0433ae00602c0e4d00424d213b0ab",
+                "url": "https://el-taberna.com/tabernalauncher/repo/lib/org/apache/logging/log4j/log4j-core/2.15.0/log4j-core-2.15.0.jar"
+              }
+            },
+            {
+              "id": "org.apache.logging.log4j:log4j-slf4j18-impl:2.15.0",
+              "name": "Minecraft Forge (log4j-slf4j18-impl)",
+              "type": "Library",
+              "artifact": {
+                "size": 21223,
+                "MD5": "196442f1bdde4dbb0f576eed616e21b0",
+                "url": "https://el-taberna.com/tabernalauncher/repo/lib/org/apache/logging/log4j/log4j-slf4j18-impl/2.15.0/log4j-slf4j18-impl-2.15.0.jar"
+              }
+            },
+            {
+              "id": "net.minecrell:terminalconsoleappender:1.2.0",
+              "name": "Minecraft Forge (terminalconsoleappender)",
+              "type": "Library",
+              "artifact": {
+                "size": 15977,
+                "MD5": "679363fa893293791e55a21f81342f87",
+                "url": "https://el-taberna.com/tabernalauncher/repo/lib/net/minecrell/terminalconsoleappender/1.2.0/terminalconsoleappender-1.2.0.jar"
+              }
+            },
+            {
+              "id": "net.sf.jopt-simple:jopt-simple:5.0.4",
+              "name": "Minecraft Forge (jopt-simple)",
+              "type": "Library",
+              "artifact": {
+                "size": 78146,
+                "MD5": "eb0d9dffe9b0eddead68fe678be76c49",
+                "url": "https://el-taberna.com/tabernalauncher/repo/lib/net/sf/jopt-simple/jopt-simple/5.0.4/jopt-simple-5.0.4.jar"
+              }
+            },
+            {
+              "id": "org.spongepowered:mixin:0.8.4",
+              "name": "Minecraft Forge (mixin)",
+              "type": "Library",
+              "artifact": {
+                "size": 1069391,
+                "MD5": "25fbb8ff965e88cc2252c99be0cf5cbb",
+                "url": "https://el-taberna.com/tabernalauncher/repo/lib/org/spongepowered/mixin/0.8.4/mixin-0.8.4.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:nashorn-core-compat:15.1.1.1",
+              "name": "Minecraft Forge (nashorn-core-compat)",
+              "type": "Library",
+              "artifact": {
+                "size": 2194057,
+                "MD5": "ae37ed8407982eefc9f85fdb1c95a3a0",
+                "url": "https://el-taberna.com/tabernalauncher/repo/lib/net/minecraftforge/nashorn-core-compat/15.1.1.1/nashorn-core-compat-15.1.1.1.jar"
+              }
+            }
+          ]
+        },
+        {
+          "id": "team.creative:ambientsounds:3.0.3@jar",
+          "name": "Ambient Sounds",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 76505097,
+            "url": "https://el-taberna.com/tabernalauncher/servers/Taberna6-1.16.5/forgemods/optionalon/AmbientSounds_v3.1.11_mc1.16.5.jar",
+            "MD5": "727964d6b3ddb7748ea4cd333ed1b038"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "squeek.appleskin:appleskin:2.4.0+mc1.16.4@jar",
+          "name": "AppleSkin",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 47735,
+            "url": "https://el-taberna.com/tabernalauncher/servers/Taberna6-1.16.5/forgemods/required/appleskin-forge-mc1.16.x-2.4.0.jar",
+            "MD5": "ec6a10073c12f4e2ca787f3a808d9531"
+          }
+        },
+        {
+          "id": "com.yungnickyoung.minecraft:bettercaves:1.16.4-1.1.2@jar",
+          "name": "YUNG's Better Caves",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1402482,
+            "url": "https://el-taberna.com/tabernalauncher/servers/Taberna6-1.16.5/forgemods/required/BetterCaves-Forge-1.16.4-1.1.2.jar",
+            "MD5": "2a4d2750e78156a6efcbb2ea932d4e6e"
+          }
+        },
+        {
+          "id": "com.yungnickyoung.minecraft:betterdungeons:1.16.4-1.2.1@jar",
+          "name": "YUNG's Better Dungeons",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 510439,
+            "url": "https://el-taberna.com/tabernalauncher/servers/Taberna6-1.16.5/forgemods/required/BetterDungeons-1.16.4-1.2.1.jar",
+            "MD5": "a51b4f9c3e0e9fbdb3be8751dd2fc24e"
+          }
+        },
+        {
+          "id": "com.yungnickyoung.minecraft:bettermineshafts:1.16.4-2.0.4@jar",
+          "name": "YUNG's Better Mineshafts",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 289307,
+            "url": "https://el-taberna.com/tabernalauncher/servers/Taberna6-1.16.5/forgemods/required/BetterMineshafts-Forge-1.16.4-2.0.4.jar",
+            "MD5": "94a88366c2e6846b32c5df0a5f044d07"
+          }
+        },
+        {
+          "id": "com.yungnickyoung.minecraft:betterstrongholds:1.16.4-1.2.1@jar",
+          "name": "YUNG's Better Strongholds",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 541396,
+            "url": "https://el-taberna.com/tabernalauncher/servers/Taberna6-1.16.5/forgemods/required/BetterStrongholds-1.16.4-1.2.1.jar",
+            "MD5": "47c3af75b76034d5952c0df6440cd3e4"
+          }
+        },
+        {
+          "id": "de.maxhenkel:camera:1.16.5-1.0.14@jar",
+          "name": "Camera Mod",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 273299,
+            "url": "https://el-taberna.com/tabernalauncher/servers/Taberna6-1.16.5/forgemods/required/camera-1.16.5-1.0.14.jar",
+            "MD5": "91f52f8feec00dfe0aed9a851c19b7ea"
+          }
+        },
+        {
+          "id": "com.mrcrayfish.furniture:cfm:7.0.0-pre22@jar",
+          "name": "MrCrayfish's Furniture Mod",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2033912,
+            "url": "https://el-taberna.com/tabernalauncher/servers/Taberna6-1.16.5/forgemods/required/cfm-7.0.0pre22-1.16.3.jar",
+            "MD5": "b2a5f7a361279de6bb5f51246ad36484"
+          }
+        },
+        {
+          "id": "com.mrcrayfish.guns:cgm:1.2.6@jar",
+          "name": "MrCrayfish's Gun Mod",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1607217,
+            "url": "https://el-taberna.com/tabernalauncher/servers/Taberna6-1.16.5/forgemods/required/cgm-1.2.6-1.16.5.jar",
+            "MD5": "3d15af75addf26471e870654a0c6df87"
+          }
+        },
+        {
+          "id": "com.gitlab.cdagaming:craftpresence:1.8.10@jar",
+          "name": "CraftPresence",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 848460,
+            "url": "https://el-taberna.com/tabernalauncher/servers/Taberna6-1.16.5/forgemods/required/CraftPresence-Forge-1.16.5-Release-1.8.10.jar",
+            "MD5": "78c0a86aefe9509f583a75ce938fba80"
+          }
+        },
+        {
+          "id": "team.creative:creativecore:2.0.0@jar",
+          "name": "CreativeCore",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 631207,
+            "url": "https://el-taberna.com/tabernalauncher/servers/Taberna6-1.16.5/forgemods/required/CreativeCore_v2.2.1_mc1.16.5.jar",
+            "MD5": "c32d3e1df267d820eb2b1b8e8adb75e1"
+          }
+        },
+        {
+          "id": "com.ferreusveritas:dynamictrees:1.16.5-0.10.0-Beta33@jar",
+          "name": "Dynamic Trees",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1901003,
+            "url": "https://el-taberna.com/tabernalauncher/servers/Taberna6-1.16.5/forgemods/required/DynamicTrees-1.16.5-0.10.0-Beta33.jar",
+            "MD5": "7df86b3d25ea51051e7775fdeeb28b8a"
+          }
+        },
+        {
+          "id": "com.ferreusveritas:dynamictreesplus:1.16.5-0.1.0-Beta11@jar",
+          "name": "Dynamic Trees Plus",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 267040,
+            "url": "https://el-taberna.com/tabernalauncher/servers/Taberna6-1.16.5/forgemods/required/DynamicTreesPlus-1.16.5-0.1.0-Beta11.jar",
+            "MD5": "199370a93cdd288ae609c00228af8fa4"
+          }
+        },
+        {
+          "id": "de.keksuccino:fancymenu:2.12.1@jar",
+          "name": "FancyMenu",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 922438,
+            "url": "https://el-taberna.com/tabernalauncher/servers/Taberna6-1.16.5/forgemods/required/fancymenu_forge_2.12.1_MC_1.16.2-1.16.5.jar",
+            "MD5": "5a169fae908a917e04243be4b0a435c5"
+          }
+        },
+        {
+          "id": "tallestegg.guardvillagers:guardvillagers:1.2.6@jar",
+          "name": "Guard Villagers",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 190249,
+            "url": "https://el-taberna.com/tabernalauncher/servers/Taberna6-1.16.5/forgemods/required/guardvillagers-1.16.5.1.2.6.jar",
+            "MD5": "38c799687aee7383af3198645f4b4f1c"
+          }
+        },
+        {
+          "id": "mezz.jei:jei:7.7.1.152@jar",
+          "name": "Just Enough Items",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 828677,
+            "url": "https://el-taberna.com/tabernalauncher/servers/Taberna6-1.16.5/forgemods/required/jei-1.16.5-7.7.1.152.jar",
+            "MD5": "fb5fe43b43be01abc6c24eff29791b52"
+          }
+        },
+        {
+          "id": "journeymap:journeymap:5.8.5p5@jar",
+          "name": "Journeymap",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 6693671,
+            "url": "https://el-taberna.com/tabernalauncher/servers/Taberna6-1.16.5/forgemods/required/journeymap-1.16.5-5.8.5p5.jar",
+            "MD5": "509dd35762b46c24282f1c1982e79c70"
+          }
+        },
+        {
+          "id": "de.keksuccino:konkrete:1.5.0@jar",
+          "name": "Konkrete",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 577954,
+            "url": "https://el-taberna.com/tabernalauncher/servers/Taberna6-1.16.5/forgemods/required/konkrete_forge_1.5.0_MC_1.16.2-1.16.5.jar",
+            "MD5": "80e8bfaa1e59727fb023425c1be803b9"
+          }
+        },
+        {
+          "id": "tv.mapper:mapperbase:1.16.5-2.4.0.0@jar",
+          "name": "Mapper Base",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 222545,
+            "url": "https://el-taberna.com/tabernalauncher/servers/Taberna6-1.16.5/forgemods/required/mapperbase-1.16.5-2.4.0.0.jar",
+            "MD5": "1b727e33ef0abe0b2559b267eef9cefe"
+          }
+        },
+        {
+          "id": "com.mrcrayfish:obfuscate:0.6.3@jar",
+          "name": "Obfuscate",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 142536,
+            "url": "https://el-taberna.com/tabernalauncher/servers/Taberna6-1.16.5/forgemods/required/obfuscate-0.6.3-1.16.5.jar",
+            "MD5": "514fe4c6c39bc1b7e474d813daab593e"
+          }
+        },
+        {
+          "id": "generated.forgemod:optifine:1.16.5_HD_U_G8@jar",
+          "name": "OptiFine",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 5520538,
+            "url": "https://el-taberna.com/tabernalauncher/servers/Taberna6-1.16.5/forgemods/optionalon/OptiFine_1.16.5_HD_U_G8_MOD.jar",
+            "MD5": "1f7fc6aaadc47ff6a6609734fb3c4b6c"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "net.optifine:optifine:1.18.2_HD_U_H7@jar",
+          "name": "OptiFine",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 6115048,
+            "url": "https://el-taberna.com/tabernalauncher/servers/Taberna6-1.16.5/forgemods/required/OptiFine_1.18.2_HD_U_H7_MOD.jar",
+            "MD5": "98750299acaa1ffd3dd581ceb29fe771"
+          }
+        },
+        {
+          "id": "tv.mapper:roadstuff:1.16.5-4.3.0@jar",
+          "name": "Road Stuff",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 3919117,
+            "url": "https://el-taberna.com/tabernalauncher/servers/Taberna6-1.16.5/forgemods/required/roadstuff-1.16.5-4.3.0.jar",
+            "MD5": "50f59414da4c293926e616d6c114cc9c"
+          }
+        },
+        {
+          "id": "com.terraforged.mod:terraforged:0.2.16-BETA-2@jar",
+          "name": "TerraForged",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1675339,
+            "url": "https://el-taberna.com/tabernalauncher/servers/Taberna6-1.16.5/forgemods/required/TerraForged-1.16.5-0.2.16-BETA-2.jar",
+            "MD5": "f3576c12a5dad4605e217ab0f1252aab"
+          }
+        },
+        {
+          "id": "info.u_team.u_team_core:uteamcore:3.2.1.215@jar",
+          "name": "U Team Core",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 397235,
+            "url": "https://el-taberna.com/tabernalauncher/servers/Taberna6-1.16.5/forgemods/required/u_team_core-1.16.5-3.2.1.215.jar",
+            "MD5": "fed040f44dd1dcaedc7eea0cc3b5bf1a"
+          }
+        },
+        {
+          "id": "info.u_team.useful_backpacks:usefulbackpacks:1.12.1.90@jar",
+          "name": "Useful Backpacks",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 173186,
+            "url": "https://el-taberna.com/tabernalauncher/servers/Taberna6-1.16.5/forgemods/required/useful_backpacks-1.16.5-1.12.1.90.jar",
+            "MD5": "7ca507577b4c1fab5632148bae17044a"
+          }
+        },
+        {
+          "id": "com.mrcrayfish:vehicle:0.45.2@jar",
+          "name": "MrCrayfish's Vehicle Mod",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 3397300,
+            "url": "https://el-taberna.com/tabernalauncher/servers/Taberna6-1.16.5/forgemods/required/vehicle-mod-0.45.2-1.16.3.jar",
+            "MD5": "c2ef69e5bfe25bb9deb11a9b38297fdb"
+          }
+        },
+        {
+          "id": "onelemonyboi.xlfoodmod:xlfoodmod:1.16.4-1.2.0@jar",
+          "name": "XL Food Mod",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 475766,
+            "url": "https://el-taberna.com/tabernalauncher/servers/Taberna6-1.16.5/forgemods/required/xlfoodmod-1.16.4-1.2.0.jar",
+            "MD5": "909748a2f95d401142322a0e4525deed"
+          }
+        },
+        {
+          "id": "com.yungnickyoung.minecraft:yungsapi:1.16.4-Forge-13@jar",
+          "name": "YUNG's API",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 106058,
+            "url": "https://el-taberna.com/tabernalauncher/servers/Taberna6-1.16.5/forgemods/required/YungsApi-1.16.4-Forge-13.jar",
+            "MD5": "d9bb57c12da921556bfd981c37f9a49a"
+          }
+        },
+        {
+          "id": "craftpresence.properties",
+          "name": "craftpresence.properties",
+          "type": "File",
+          "artifact": {
+            "size": 2680,
+            "url": "https://el-taberna.com/tabernalauncher/servers/Taberna6-1.16.5/files/config/craftpresence.properties",
+            "MD5": "6e8f563f9b663421eb4c309244034e4b",
+            "path": "config/craftpresence.properties"
+          }
+        },
+        {
+          "id": "properties.txt",
+          "name": "properties.txt",
+          "type": "File",
+          "artifact": {
+            "size": 105,
+            "url": "https://el-taberna.com/tabernalauncher/servers/Taberna6-1.16.5/files/config/fancymenu/animations/properties.txt",
+            "MD5": "5c7e6b1fe58f63743b7596ed1ffefed3",
+            "path": "config/fancymenu/animations/properties.txt"
+          }
+        },
+        {
+          "id": "taberna6menu.gif",
+          "name": "taberna6menu.gif",
+          "type": "File",
+          "artifact": {
+            "size": 23418386,
+            "url": "https://el-taberna.com/tabernalauncher/servers/Taberna6-1.16.5/files/config/fancymenu/animations/taberna6menu.gif",
+            "MD5": "8b1a76003ecb6bb2c2afaadc71194acc",
+            "path": "config/fancymenu/animations/taberna6menu.gif"
+          }
+        },
+        {
+          "id": "config.txt",
+          "name": "config.txt",
+          "type": "File",
+          "artifact": {
+            "size": 1998,
+            "url": "https://el-taberna.com/tabernalauncher/servers/Taberna6-1.16.5/files/config/fancymenu/config.txt",
+            "MD5": "390b10eecc552c9c65e1474fef5631a6",
+            "path": "config/fancymenu/config.txt"
+          }
+        },
+        {
+          "id": "customizablemenus.txt",
+          "name": "customizablemenus.txt",
+          "type": "File",
+          "artifact": {
+            "size": 78,
+            "url": "https://el-taberna.com/tabernalauncher/servers/Taberna6-1.16.5/files/config/fancymenu/customizablemenus.txt",
+            "MD5": "07f64ca74b24df0a77c8d840009fed6b",
+            "path": "config/fancymenu/customizablemenus.txt"
+          }
+        },
+        {
+          "id": "MainMenuScreen_1.txt",
+          "name": "MainMenuScreen_1.txt",
+          "type": "File",
+          "artifact": {
+            "size": 1898,
+            "url": "https://el-taberna.com/tabernalauncher/servers/Taberna6-1.16.5/files/config/fancymenu/customization/.disabled/MainMenuScreen_1.txt",
+            "MD5": "574a11c83080746aa82806b0a18431c5",
+            "path": "config/fancymenu/customization/.disabled/MainMenuScreen_1.txt"
+          }
+        },
+        {
+          "id": "1920x1080.txt",
+          "name": "1920x1080.txt",
+          "type": "File",
+          "artifact": {
+            "size": 2068,
+            "url": "https://el-taberna.com/tabernalauncher/servers/Taberna6-1.16.5/files/config/fancymenu/customization/1920x1080.txt",
+            "MD5": "7677745505c5de0e8fdfbe846ad825c3",
+            "path": "config/fancymenu/customization/1920x1080.txt"
+          }
+        },
+        {
+          "id": "TF2HudFixed.fhlayout",
+          "name": "TF2HudFixed.fhlayout",
+          "type": "File",
+          "artifact": {
+            "size": 16748,
+            "url": "https://el-taberna.com/tabernalauncher/servers/Taberna6-1.16.5/files/config/fancymenu/fancyhud/customization/TF2HudFixed.fhlayout",
+            "MD5": "a54251475e343cdeea647b6e086d1b86",
+            "path": "config/fancymenu/fancyhud/customization/TF2HudFixed.fhlayout"
+          }
+        },
+        {
+          "id": "de_de.local",
+          "name": "de_de.local",
+          "type": "File",
+          "artifact": {
+            "size": 20011,
+            "url": "https://el-taberna.com/tabernalauncher/servers/Taberna6-1.16.5/files/config/fancymenu/locals/de_de.local",
+            "MD5": "f7672ca255f81aa57e8641fd42b0f694",
+            "path": "config/fancymenu/locals/de_de.local"
+          }
+        },
+        {
+          "id": "en_us.local",
+          "name": "en_us.local",
+          "type": "File",
+          "artifact": {
+            "size": 19529,
+            "url": "https://el-taberna.com/tabernalauncher/servers/Taberna6-1.16.5/files/config/fancymenu/locals/en_us.local",
+            "MD5": "5614dbbcbc51f0fcba6e5291e7f1643d",
+            "path": "config/fancymenu/locals/en_us.local"
+          }
+        },
+        {
+          "id": "pl_pl.local",
+          "name": "pl_pl.local",
+          "type": "File",
+          "artifact": {
+            "size": 14275,
+            "url": "https://el-taberna.com/tabernalauncher/servers/Taberna6-1.16.5/files/config/fancymenu/locals/pl_pl.local",
+            "MD5": "956b052e15281169f90e9e5bd9b9c3af",
+            "path": "config/fancymenu/locals/pl_pl.local"
+          }
+        },
+        {
+          "id": "pt_br.local",
+          "name": "pt_br.local",
+          "type": "File",
+          "artifact": {
+            "size": 14690,
+            "url": "https://el-taberna.com/tabernalauncher/servers/Taberna6-1.16.5/files/config/fancymenu/locals/pt_br.local",
+            "MD5": "2e4feed8d5692ef3f657f69453528535",
+            "path": "config/fancymenu/locals/pt_br.local"
+          }
+        },
+        {
+          "id": "1.jpg",
+          "name": "1.jpg",
+          "type": "File",
+          "artifact": {
+            "size": 410765,
+            "url": "https://el-taberna.com/tabernalauncher/servers/Taberna6-1.16.5/files/config/fancymenu/slideshows/background/images/1.jpg",
+            "MD5": "77a05460ee071cb67c8251e99374d1fb",
+            "path": "config/fancymenu/slideshows/background/images/1.jpg"
+          }
+        },
+        {
+          "id": "2.jpg",
+          "name": "2.jpg",
+          "type": "File",
+          "artifact": {
+            "size": 623777,
+            "url": "https://el-taberna.com/tabernalauncher/servers/Taberna6-1.16.5/files/config/fancymenu/slideshows/background/images/2.jpg",
+            "MD5": "ab46385668e7200e9cff2a06a3642b7d",
+            "path": "config/fancymenu/slideshows/background/images/2.jpg"
+          }
+        },
+        {
+          "id": "3.jpg",
+          "name": "3.jpg",
+          "type": "File",
+          "artifact": {
+            "size": 467201,
+            "url": "https://el-taberna.com/tabernalauncher/servers/Taberna6-1.16.5/files/config/fancymenu/slideshows/background/images/3.jpg",
+            "MD5": "0b8b4083291d110870dc4ce2c76646d8",
+            "path": "config/fancymenu/slideshows/background/images/3.jpg"
+          }
+        },
+        {
+          "id": "properties.txt",
+          "name": "properties.txt",
+          "type": "File",
+          "artifact": {
+            "size": 157,
+            "url": "https://el-taberna.com/tabernalauncher/servers/Taberna6-1.16.5/files/config/fancymenu/slideshows/background/properties.txt",
+            "MD5": "0d0593c6052d5ce82903472fb96d11d9",
+            "path": "config/fancymenu/slideshows/background/properties.txt"
+          }
+        },
+        {
+          "id": "fml.toml",
+          "name": "fml.toml",
+          "type": "File",
+          "artifact": {
+            "size": 242,
+            "url": "https://el-taberna.com/tabernalauncher/servers/Taberna6-1.16.5/files/config/fml.toml",
+            "MD5": "5961f97ddaa04677acd58a89aaf3826c",
+            "path": "config/fml.toml"
+          }
+        },
+        {
+          "id": "forge-client.toml",
+          "name": "forge-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 1359,
+            "url": "https://el-taberna.com/tabernalauncher/servers/Taberna6-1.16.5/files/config/forge-client.toml",
+            "MD5": "2a328473a1dad3fe96066051e5aa4249",
+            "path": "config/forge-client.toml"
+          }
+        },
+        {
+          "id": "forge-common.toml",
+          "name": "forge-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 310,
+            "url": "https://el-taberna.com/tabernalauncher/servers/Taberna6-1.16.5/files/config/forge-common.toml",
+            "MD5": "94977d1b9c60ebe6f0cfc34c0bbaa8c8",
+            "path": "config/forge-common.toml"
+          }
+        },
+        {
+          "id": "simplyseasons-client.toml",
+          "name": "simplyseasons-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 845,
+            "url": "https://el-taberna.com/tabernalauncher/servers/Taberna6-1.16.5/files/config/simplyseasons-client.toml",
+            "MD5": "5548a7cb99e52516e209a5a869255ee0",
+            "path": "config/simplyseasons-client.toml"
+          }
+        },
+        {
+          "id": "chardata.properties",
+          "name": "chardata.properties",
+          "type": "File",
+          "artifact": {
+            "size": 249752,
+            "url": "https://el-taberna.com/tabernalauncher/servers/Taberna6-1.16.5/files/craftpresence/chardata.properties",
+            "MD5": "61208e897aa1be5e0767839617f911f5",
+            "path": "craftpresence/chardata.properties"
+          }
+        },
+        {
+          "id": "downloads.txt",
+          "name": "downloads.txt",
+          "type": "File",
+          "artifact": {
+            "size": 438,
+            "url": "https://el-taberna.com/tabernalauncher/servers/Taberna6-1.16.5/files/craftpresence/export/703763585809252412/downloads.txt",
+            "MD5": "fb7b2247063e57f097122c1bc82ee2b9",
+            "path": "craftpresence/export/703763585809252412/downloads.txt"
+          }
+        },
+        {
+          "id": "Soartex_Fanver_Universal_1.16.x_2020_11_27.zip",
+          "name": "Soartex_Fanver_Universal_1.16.x_2020_11_27.zip",
+          "type": "File",
+          "artifact": {
+            "size": 76270782,
+            "url": "https://el-taberna.com/tabernalauncher/servers/Taberna6-1.16.5/files/resourcepacks/Soartex_Fanver_Universal_1.16.x_2020_11_27.zip",
+            "MD5": "e4271041841cd74d514b7e989d481132",
+            "path": "resourcepacks/Soartex_Fanver_Universal_1.16.x_2020_11_27.zip"
+          }
+        },
+        {
+          "id": "Chocapic13_V9_Extreme.zip",
+          "name": "Chocapic13_V9_Extreme.zip",
+          "type": "File",
+          "artifact": {
+            "size": 3134623,
+            "url": "https://el-taberna.com/tabernalauncher/servers/Taberna6-1.16.5/files/shaderpacks/Chocapic13_V9_Extreme.zip",
+            "MD5": "2a5ec76ad7acc47005e32cc1e5da1e41",
+            "path": "shaderpacks/Chocapic13_V9_Extreme.zip"
+          }
+        },
+        {
+          "id": "Chocapic13_V9_Low.zip",
+          "name": "Chocapic13_V9_Low.zip",
+          "type": "File",
+          "artifact": {
+            "size": 2421404,
+            "url": "https://el-taberna.com/tabernalauncher/servers/Taberna6-1.16.5/files/shaderpacks/Chocapic13_V9_Low.zip",
+            "MD5": "c370a206d8d2ddfaab218c1561a57ec7",
+            "path": "shaderpacks/Chocapic13_V9_Low.zip"
+          }
+        },
+        {
+          "id": "SEUS-PTGI-HRR-Test 2.1.zip",
+          "name": "SEUS-PTGI-HRR-Test 2.1.zip",
+          "type": "File",
+          "artifact": {
+            "size": 4402258,
+            "url": "https://el-taberna.com/tabernalauncher/servers/Taberna6-1.16.5/files/shaderpacks/SEUS-PTGI-HRR-Test%202.1.zip",
+            "MD5": "a2f6feaf818e09dafd9a2afedcae5ba0",
+            "path": "shaderpacks/SEUS-PTGI-HRR-Test 2.1.zip"
+          }
+        },
+        {
+          "id": "SEUS-Renewed-v1.0.1.zip",
+          "name": "SEUS-Renewed-v1.0.1.zip",
+          "type": "File",
+          "artifact": {
+            "size": 7062638,
+            "url": "https://el-taberna.com/tabernalauncher/servers/Taberna6-1.16.5/files/shaderpacks/SEUS-Renewed-v1.0.1.zip",
+            "MD5": "8faeb04d9953c9b10b0794acafc4c1aa",
+            "path": "shaderpacks/SEUS-Renewed-v1.0.1.zip"
+          }
+        },
+        {
+          "id": "Sildurs-Vibrant-Shaders_v1.283_Extreme-VL.zip",
+          "name": "Sildurs-Vibrant-Shaders_v1.283_Extreme-VL.zip",
+          "type": "File",
+          "artifact": {
+            "size": 142955,
+            "url": "https://el-taberna.com/tabernalauncher/servers/Taberna6-1.16.5/files/shaderpacks/Sildurs-Vibrant-Shaders_v1.283_Extreme-VL.zip",
+            "MD5": "5ecd627757e8602dfb4bd3575d9e49c0",
+            "path": "shaderpacks/Sildurs-Vibrant-Shaders_v1.283_Extreme-VL.zip"
+          }
+        },
+        {
+          "id": "Sildurs-Vibrant-Shaders_v1.283_Lite.zip",
+          "name": "Sildurs-Vibrant-Shaders_v1.283_Lite.zip",
+          "type": "File",
+          "artifact": {
+            "size": 142935,
+            "url": "https://el-taberna.com/tabernalauncher/servers/Taberna6-1.16.5/files/shaderpacks/Sildurs-Vibrant-Shaders_v1.283_Lite.zip",
+            "MD5": "72f6fb6310b14bde06c5e33c51169e3f",
+            "path": "shaderpacks/Sildurs-Vibrant-Shaders_v1.283_Lite.zip"
+          }
+        },
+        {
+          "id": "Voyager+shader+1.6.zip",
+          "name": "Voyager+shader+1.6.zip",
+          "type": "File",
+          "artifact": {
+            "size": 103666,
+            "url": "https://el-taberna.com/tabernalauncher/servers/Taberna6-1.16.5/files/shaderpacks/Voyager+shader+1.6.zip",
+            "MD5": "4840a8737ca36fd9bbe4f4d8b62b8cb0",
+            "path": "shaderpacks/Voyager+shader+1.6.zip"
+          }
+        },
+        {
+          "id": "continuum-2.0.4.zip",
+          "name": "continuum-2.0.4.zip",
+          "type": "File",
+          "artifact": {
+            "size": 255400,
+            "url": "https://el-taberna.com/tabernalauncher/servers/Taberna6-1.16.5/files/shaderpacks/continuum-2.0.4.zip",
+            "MD5": "9dc3cdeda088b5f6db6329e9062ee07f",
+            "path": "shaderpacks/continuum-2.0.4.zip"
+          }
+        }
+      ]
+    },
+    {
+      "id": "Taberna7-1.18.2",
+      "name": "Taberna 7 (Minecraft 1.18.2)",
+      "description": "Taberna 7 fonctionne sous Minecraft 1.18.2 (Forge v40.1.73)",
+      "icon": "https://el-taberna.com/tabernalauncher/servers/Taberna7-1.18.2/tabernalauncher.png",
+      "version": "1.0.0",
+      "address": "serveur.tabernacraft.com:25565",
+      "minecraftVersion": "1.18.2",
+      "discord": {
+        "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+      },
+      "mainServer": true,
+      "autoconnect": false,
+      "modules": [
+        {
+          "id": "net.minecraftforge:fmlcore:1.18.2-40.1.73",
+          "name": "Minecraft Forge (fmlcore)",
+          "type": "ForgeHosted",
+          "artifact": {
+            "size": 109698,
+            "MD5": "5f5adf537f6b8f67795825d6aea7f91c",
+            "url": "https://el-taberna.com/tabernalauncher/repo/lib/net/minecraftforge/fmlcore/1.18.2-40.1.73/fmlcore-1.18.2-40.1.73.jar"
+          },
+          "subModules": [
+            {
+              "id": "1.18.2-40.1.73",
+              "name": "Minecraft Forge (version.json)",
+              "type": "VersionManifest",
+              "artifact": {
+                "size": 14248,
+                "MD5": "4f28f200560f381663813bf9620325c1",
+                "url": "https://el-taberna.com/tabernalauncher/repo/versions/1.18.2-forge-40.1.73/1.18.2-forge-40.1.73.json"
+              }
+            },
+            {
+              "id": "net.minecraftforge:javafmllanguage:1.18.2-40.1.73",
+              "name": "Minecraft Forge (javafmllanguage)",
+              "type": "Library",
+              "artifact": {
+                "size": 16292,
+                "MD5": "f52efe23187cc7d984d019f0f7de174f",
+                "url": "https://el-taberna.com/tabernalauncher/repo/lib/net/minecraftforge/javafmllanguage/1.18.2-40.1.73/javafmllanguage-1.18.2-40.1.73.jar"
+              },
+              "subModules": []
+            },
+			{
+              "id": "net.minecraftforge:lowcodelanguage:1.18.2-40.1.73",
+              "name": "Minecraft Forge (lowcodelanguage:1.18.2-40.1.73)",
+              "type": "Library",
+              "artifact": {
+                "size": 7382,
+                "MD5": "fa6db76b1e069fdc7535b2adc9179b26",
+                "url": "https://el-taberna.com/tabernalauncher/repo/lib/net/minecraftforge/lowcodelanguage/1.18.2-40.1.73/lowcodelanguage-1.18.2-40.1.73.jar"
+              },
+			  "subModules": []
+            },
+            {
+              "id": "net.minecraftforge:mclanguage:1.18.2-40.1.73",
+              "name": "Minecraft Forge (mclanguage)",
+              "type": "Library",
+              "artifact": {
+                "size": 4988,
+                "MD5": "3c7a5bf8e452f9bfbe46c8760f93f8fa",
+                "url": "https://el-taberna.com/tabernalauncher/repo/lib/net/minecraftforge/mclanguage/1.18.2-40.1.73/mclanguage-1.18.2-40.1.73.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraftforge:forge:1.18.2-40.1.73:universal",
+              "name": "Minecraft Forge (universal jar)",
+              "type": "Library",
+              "artifact": {
+                "size": 2534132,
+                "MD5": "ba5ff202ca68284f9175d22e3cb2a006",
+                "url": "https://el-taberna.com/tabernalauncher/repo/lib/net/minecraftforge/forge/1.18.2-40.1.73/forge-1.18.2-40.1.73-universal.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraftforge:forge:1.18.2-40.1.73:client",
+              "name": "Minecraft Forge (client jar)",
+              "type": "Library",
+              "artifact": {
+                "size": 5118077,
+                "MD5": "336e97abc43453bae90c2d0c14922b5f",
+                "url": "https://el-taberna.com/tabernalauncher/repo/lib/net/minecraftforge/forge/1.18.2-40.1.73/forge-1.18.2-40.1.73-client.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraft:client:1.18.2-20220404.173914:srg",
+              "name": "Minecraft Forge (client srg)",
+              "type": "Library",
+              "artifact": {
+                "size": 16166247,
+                "MD5": "a0ce7261b4f77fd1319b05b95591bc68",
+                "url": "https://el-taberna.com/tabernalauncher/repo/lib/net/minecraft/client/1.18.2-20220404.173914/client-1.18.2-20220404.173914-srg.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraft:client:1.18.2-20220404.173914:slim",
+              "name": "Minecraft Forge (client slim)",
+              "type": "Library",
+              "artifact": {
+                "size": 10909711,
+                "MD5": "62184203a1e66c6c72b415b7d6e64c0d",
+                "url": "https://el-taberna.com/tabernalauncher/repo/lib/net/minecraft/client/1.18.2-20220404.173914/client-1.18.2-20220404.173914-slim.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraft:client:1.18.2-20220404.173914:extra",
+              "name": "Minecraft Forge (client extra)",
+              "type": "Library",
+              "artifact": {
+                "size": 9349972,
+                "MD5": "5de62b239289ed8e596b386766b87b41",
+                "url": "https://el-taberna.com/tabernalauncher/repo/lib/net/minecraft/client/1.18.2-20220404.173914/client-1.18.2-20220404.173914-extra.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "cpw.mods:securejarhandler:1.0.3",
+              "name": "Minecraft Forge (securejarhandler)",
+              "type": "Library",
+              "artifact": {
+                "size": 103266,
+                "MD5": "678ec8927eb25f596db7e620a716befc",
+                "url": "https://el-taberna.com/tabernalauncher/repo/lib/cpw/mods/securejarhandler/1.0.3/securejarhandler-1.0.3.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm:9.2",
+              "name": "Minecraft Forge (asm)",
+              "type": "Library",
+              "artifact": {
+                "size": 122004,
+                "MD5": "8f184dce9b1bedc675d4a3640d43ddf0",
+                "url": "https://el-taberna.com/tabernalauncher/repo/lib/org/ow2/asm/asm/9.2/asm-9.2.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-commons:9.2",
+              "name": "Minecraft Forge (asm-commons)",
+              "type": "Library",
+              "artifact": {
+                "size": 72642,
+                "MD5": "3eb09775e1076eb0a085a4592faebc2a",
+                "url": "https://el-taberna.com/tabernalauncher/repo/lib/org/ow2/asm/asm-commons/9.2/asm-commons-9.2.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-tree:9.2",
+              "name": "Minecraft Forge (asm-tree)",
+              "type": "Library",
+              "artifact": {
+                "size": 52660,
+                "MD5": "9c45524e94b19cc8b614b9e81ad544e2",
+                "url": "https://el-taberna.com/tabernalauncher/repo/lib/org/ow2/asm/asm-tree/9.2/asm-tree-9.2.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-util:9.2",
+              "name": "Minecraft Forge (asm-util)",
+              "type": "Library",
+              "artifact": {
+                "size": 84854,
+                "MD5": "8562ac2619220b948cef931285b1e13b",
+                "url": "https://el-taberna.com/tabernalauncher/repo/lib/org/ow2/asm/asm-util/9.2/asm-util-9.2.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-analysis:9.2",
+              "name": "Minecraft Forge (asm-analysis)",
+              "type": "Library",
+              "artifact": {
+                "size": 34257,
+                "MD5": "e62aa59de96ae29c690c3521ea4b6359",
+                "url": "https://el-taberna.com/tabernalauncher/repo/lib/org/ow2/asm/asm-analysis/9.2/asm-analysis-9.2.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:accesstransformers:8.0.4",
+              "name": "Minecraft Forge (accesstransformers)",
+              "type": "Library",
+              "artifact": {
+                "size": 77756,
+                "MD5": "f0d3533f9437ba4428eaee9f28f7ecd9",
+                "url": "https://el-taberna.com/tabernalauncher/repo/lib/net/minecraftforge/accesstransformers/8.0.4/accesstransformers-8.0.4.jar"
+              }
+            },
+            {
+              "id": "org.antlr:antlr4-runtime:4.9.1",
+              "name": "Minecraft Forge (antlr4-runtime)",
+              "type": "Library",
+              "artifact": {
+                "size": 337868,
+                "MD5": "0dcc4b860d5d8d2852ab94d58c56ca2d",
+                "url": "https://el-taberna.com/tabernalauncher/repo/lib/org/antlr/antlr4-runtime/4.9.1/antlr4-runtime-4.9.1.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:eventbus:5.0.3",
+              "name": "Minecraft Forge (eventbus)",
+              "type": "Library",
+              "artifact": {
+                "size": 42838,
+                "MD5": "c8b735cdfe9975a569626d72ad40377f",
+                "url": "https://el-taberna.com/tabernalauncher/repo/lib/net/minecraftforge/eventbus/5.0.3/eventbus-5.0.3.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:forgespi:4.0.15-4.x",
+              "name": "Minecraft Forge (forgespi)",
+              "type": "Library",
+              "artifact": {
+                "size": 22072,
+                "MD5": "8509a972b27c9f037d55c61e16fc051f",
+                "url": "https://el-taberna.com/tabernalauncher/repo/lib/net/minecraftforge/forgespi/4.0.15-4.x/forgespi-4.0.15-4.x.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:coremods:5.0.1",
+              "name": "Minecraft Forge (coremods)",
+              "type": "Library",
+              "artifact": {
+                "size": 24199,
+                "MD5": "8c590051c5d65e098ca7c2e3ddf803a8",
+                "url": "https://el-taberna.com/tabernalauncher/repo/lib/net/minecraftforge/coremods/5.0.1/coremods-5.0.1.jar"
+              }
+            },
+            {
+              "id": "cpw.mods:modlauncher:9.1.3",
+              "name": "Minecraft Forge (modlauncher)",
+              "type": "Library",
+              "artifact": {
+                "size": 129301,
+                "MD5": "dca70519c3e53ac018d6f50c6f90cd38",
+                "url": "https://el-taberna.com/tabernalauncher/repo/lib/cpw/mods/modlauncher/9.1.3/modlauncher-9.1.3.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:unsafe:0.2.0",
+              "name": "Minecraft Forge (unsafe)",
+              "type": "Library",
+              "artifact": {
+                "size": 2834,
+                "MD5": "2d1016ebe4c1a63dd50a59d26bd12db1",
+                "url": "https://el-taberna.com/tabernalauncher/repo/lib/net/minecraftforge/unsafe/0.2.0/unsafe-0.2.0.jar"
+              }
+            },
+            {
+              "id": "com.electronwill.night-config:core:3.6.4",
+              "name": "Minecraft Forge (core)",
+              "type": "Library",
+              "artifact": {
+                "size": 199834,
+                "MD5": "d83ab07267e402131fb93d899a57f5cd",
+                "url": "https://el-taberna.com/tabernalauncher/repo/lib/com/electronwill/night-config/core/3.6.4/core-3.6.4.jar"
+              }
+            },
+            {
+              "id": "com.electronwill.night-config:toml:3.6.4",
+              "name": "Minecraft Forge (toml)",
+              "type": "Library",
+              "artifact": {
+                "size": 31816,
+                "MD5": "bc95d0709fff2164b01fd09fbc988be8",
+                "url": "https://el-taberna.com/tabernalauncher/repo/lib/com/electronwill/night-config/toml/3.6.4/toml-3.6.4.jar"
+              }
+            },
+            {
+              "id": "org.apache.maven:maven-artifact:3.6.3",
+              "name": "Minecraft Forge (maven-artifact)",
+              "type": "Library",
+              "artifact": {
+                "size": 57824,
+                "MD5": "b83c1943a0783f3f81d4cd4c83c363e1",
+                "url": "https://el-taberna.com/tabernalauncher/repo/lib/org/apache/maven/maven-artifact/3.6.3/maven-artifact-3.6.3.jar"
+              }
+            },
+            {
+              "id": "net.jodah:typetools:0.8.3",
+              "name": "Minecraft Forge (typetools)",
+              "type": "Library",
+              "artifact": {
+                "size": 15425,
+                "MD5": "ee4596e1413cc1a5e080c971d6064753",
+                "url": "https://el-taberna.com/tabernalauncher/repo/lib/net/jodah/typetools/0.8.3/typetools-0.8.3.jar"
+              }
+            },
+            {
+              "id": "net.minecrell:terminalconsoleappender:1.2.0",
+              "name": "Minecraft Forge (terminalconsoleappender)",
+              "type": "Library",
+              "artifact": {
+                "size": 15977,
+                "MD5": "679363fa893293791e55a21f81342f87",
+                "url": "https://el-taberna.com/tabernalauncher/repo/lib/net/minecrell/terminalconsoleappender/1.2.0/terminalconsoleappender-1.2.0.jar"
+              }
+            },
+            {
+              "id": "org.jline:jline-reader:3.12.1",
+              "name": "Minecraft Forge (jline-reader)",
+              "type": "Library",
+              "artifact": {
+                "size": 150765,
+                "MD5": "a2e7b012cd9802f83321187409174a94",
+                "url": "https://el-taberna.com/tabernalauncher/repo/lib/org/jline/jline-reader/3.12.1/jline-reader-3.12.1.jar"
+              }
+            },
+            {
+              "id": "org.jline:jline-terminal:3.12.1",
+              "name": "Minecraft Forge (jline-terminal)",
+              "type": "Library",
+              "artifact": {
+                "size": 211712,
+                "MD5": "3c52be5ab5e3847be6e62269de924cb0",
+                "url": "https://el-taberna.com/tabernalauncher/repo/lib/org/jline/jline-terminal/3.12.1/jline-terminal-3.12.1.jar"
+              }
+            },
+            {
+              "id": "org.spongepowered:mixin:0.8.5",
+              "name": "Minecraft Forge (mixin)",
+              "type": "Library",
+              "artifact": {
+                "size": 1089277,
+                "MD5": "19b3a2ae9e445a6e626fd7d1648cfcb8",
+                "url": "https://el-taberna.com/tabernalauncher/repo/lib/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar"
+              }
+            },
+            {
+              "id": "org.openjdk.nashorn:nashorn-core:15.3",
+              "name": "Minecraft Forge (nashorn-core)",
+              "type": "Library",
+              "artifact": {
+                "size": 2167288,
+                "MD5": "91e98c20afa1090c344229ce28b4c53f",
+                "url": "https://el-taberna.com/tabernalauncher/repo/lib/org/openjdk/nashorn/nashorn-core/15.3/nashorn-core-15.3.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:JarJar:0.3.0",
+              "name": "Minecraft Forge (JarJar)",
+              "type": "Library",
+              "artifact": {
+                "size": 60569,
+                "MD5": "7733c150d5aa87caf75c34618d116619",
+                "url": "https://el-taberna.com/tabernalauncher/repo/lib/net/minecraftforge/JarJar/0.3.0/JarJar-0.3.0.jar"
+              }
+            },
+            {
+              "id": "cpw.mods:bootstraplauncher:1.0.0",
+              "name": "Minecraft Forge (bootstraplauncher)",
+              "type": "Library",
+              "artifact": {
+                "size": 7828,
+                "MD5": "1632575563bb6ead2ae3a087945f18be",
+                "url": "https://el-taberna.com/tabernalauncher/repo/lib/cpw/mods/bootstraplauncher/1.0.0/bootstraplauncher-1.0.0.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:fmlloader:1.18.2-40.1.73",
+              "name": "Minecraft Forge (fmlloader)",
+              "type": "Library",
+              "artifact": {
+                "size": 256225,
+                "MD5": "9b8b108340bcafdec7d96301d6c374ea",
+                "url": "https://el-taberna.com/tabernalauncher/repo/lib/net/minecraftforge/fmlloader/1.18.2-40.1.73/fmlloader-1.18.2-40.1.73.jar"
+              }
+            }
+          ]
+        },
+        {
+          "id": "squeek.appleskin:appleskin:2.4.1+mc1.18.2@jar",
+          "name": "AppleSkin",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 46304,
+            "url": "https://el-taberna.com/tabernalauncher/servers/Taberna7-1.18.2/forgemods/required/appleskin-forge-mc1.18.2-2.4.1.jar",
+            "MD5": "fcd811d8fb5f83614d8e9b2e44c5edbc"
+          }
+        },
+        {
+          "id": "net.blay09.mods:balm:3.2.0+0@jar",
+          "name": "Balm",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 621815,
+            "url": "https://el-taberna.com/tabernalauncher/servers/Taberna7-1.18.2/forgemods/required/balm-3.2.0+0.jar",
+            "MD5": "96454d0c4b04f2fed1573ae22f78e8ba"
+          }
+        },
+        {
+          "id": "com.mrcrayfish.furniture:cfm:7.0.0-pre29@jar",
+          "name": "MrCrayfish's Furniture Mod",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2171166,
+            "url": "https://el-taberna.com/tabernalauncher/servers/Taberna7-1.18.2/forgemods/required/cfm-7.0.0-pre29-1.18.2.jar",
+            "MD5": "44955fa7fbe27850e97a0430c5feb629"
+          }
+        },
+        {
+          "id": "net.blay09.mods:cookingforblockheads:12.0.2@jar",
+          "name": "CookingForBlockheads",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 656573,
+            "url": "https://el-taberna.com/tabernalauncher/servers/Taberna7-1.18.2/forgemods/required/cookingforblockheads-forge-1.18.2-12.0.2.jar",
+            "MD5": "e878ede7c09400912841be6588fa076a"
+          }
+        },
+        {
+          "id": "de.maxhenkel:corpse:1.18.2-1.0.2@jar",
+          "name": "Corpse",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 219786,
+            "url": "https://el-taberna.com/tabernalauncher/servers/Taberna7-1.18.2/forgemods/required/corpse-1.18.2-1.0.2.jar",
+            "MD5": "e95e589996943a75023b79856fb26c03"
+          }
+        },
+        {
+          "id": "com.craftingdead.core:craftingdead:1.7.6-alpha@jar",
+          "name": "Crafting Dead",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 3225811,
+            "url": "https://el-taberna.com/tabernalauncher/servers/Taberna7-1.18.2/forgemods/required/crafting-dead-core-1.18.2-1.7.6-alpha.jar",
+            "MD5": "b9ef68897fe081bf8814a304f725ddeb"
+          }
+        },
+        {
+          "id": "com.craftingdead.immerse:craftingdeadimmerse:1.0.12-alpha@jar",
+          "name": "Crafting Dead Immerse",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 5628266,
+            "url": "https://el-taberna.com/tabernalauncher/servers/Taberna7-1.18.2/forgemods/required/crafting-dead-immerse-1.18.2-1.0.12-alpha.jar",
+            "MD5": "4ab8d7841dab049cad62968b33e22fb5"
+          }
+        },
+        {
+          "id": "com.craftingdead.survival:craftingdeadsurvival:1.1.9-alpha@jar",
+          "name": "Crafting Dead Survival",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1071123,
+            "url": "https://el-taberna.com/tabernalauncher/servers/Taberna7-1.18.2/forgemods/required/crafting-dead-survival-1.18.2-1.1.9-alpha.jar",
+            "MD5": "5764e70acd14978317c392946c465ef3"
+          }
+        },
+        {
+          "id": "net.blay09.mods:defaultoptions:14.1.1@jar",
+          "name": "Default Options",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 86836,
+            "url": "https://el-taberna.com/tabernalauncher/servers/Taberna7-1.18.2/forgemods/optionaloff/defaultoptions-forge-1.18.2-14.1.1.jar",
+            "MD5": "e6288f72a9687af7f466c1be90c17568"
+          },
+          "required": {
+            "value": false,
+            "def": false
+          }
+        },
+        {
+          "id": "mcjty.incontrol:incontrol:1.18-6.0.15@jar",
+          "name": "InControl",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 201009,
+            "url": "https://el-taberna.com/tabernalauncher/servers/Taberna7-1.18.2/forgemods/required/incontrol-1.18-6.0.15.jar",
+            "MD5": "518d09b37df3d74e774bb393a11ef087"
+          }
+        },
+        {
+          "id": "mezz.jei:jei:9.7.1.232@jar",
+          "name": "Just Enough Items",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 993919,
+            "url": "https://el-taberna.com/tabernalauncher/servers/Taberna7-1.18.2/forgemods/required/jei-1.18.2-9.7.1.232.jar",
+            "MD5": "05acfaf71fb0acd66660fa9813b9c7af"
+          }
+        },
+        {
+          "id": "journeymap:journeymap:5.8.5@jar",
+          "name": "Journeymap",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 7022067,
+            "url": "https://el-taberna.com/tabernalauncher/servers/Taberna7-1.18.2/forgemods/optionalon/journeymap-1.18.2-5.8.5-forge.jar",
+            "MD5": "fe62ca25786119803fa26bbc4c74ee5d"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "com.lootbeams:lootbeams:1.18.1@jar",
+          "name": "LootBeams",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 61835,
+            "url": "https://el-taberna.com/tabernalauncher/servers/Taberna7-1.18.2/forgemods/optionalon/lootbeams-1.18.1-release-july1722.jar",
+            "MD5": "90bb74f83cb56074e27c9d458952c678"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "com.mcwdoors.kikoz:mcwdoors:1.0.7@jar",
+          "name": "Macaw's Doors",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 798780,
+            "url": "https://el-taberna.com/tabernalauncher/servers/Taberna7-1.18.2/forgemods/required/mcw-doors-1.0.7-mc1.18.2.jar",
+            "MD5": "2127a0181f3e4922127e2667c1a8b3db"
+          }
+        },
+        {
+          "id": "com.mcwlights.kikoz:mcwlights:1.0.4@jar",
+          "name": "Macaw's Lights and Lamps",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 242271,
+            "url": "https://el-taberna.com/tabernalauncher/servers/Taberna7-1.18.2/forgemods/required/mcw-lights-1.0.4-mc1.18.2.jar",
+            "MD5": "b8ff57288f7b1c7d47a86d9f2754c4af"
+          }
+        },
+        {
+          "id": "com.mcwroofs.kikoz:mcwroofs:2.1.2@jar",
+          "name": "Macaw's Roofs",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1672285,
+            "url": "https://el-taberna.com/tabernalauncher/servers/Taberna7-1.18.2/forgemods/required/mcw-roofs-2.1.2-mc1.18.2.jar",
+            "MD5": "4c884a8d7c83fecf81e116bd8238e716"
+          }
+        },
+        {
+          "id": "com.mcwwindows.kikoz:mcwwindows:2.0.3@jar",
+          "name": "Macaw's Windows",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 799048,
+            "url": "https://el-taberna.com/tabernalauncher/servers/Taberna7-1.18.2/forgemods/required/mcw-windows-2.0.3-mc1.18.2.jar",
+            "MD5": "f74db38c021a50933e8c81366093634f"
+          }
+        },
+        {
+          "id": "com.pam:pamhc2crops:1.0.1@jar",
+          "name": "Pam's HarvestCraft 2 - Crops",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 918046,
+            "url": "https://el-taberna.com/tabernalauncher/servers/Taberna7-1.18.2/forgemods/required/pamhc2crops-1.18.2-1.0.1.jar",
+            "MD5": "868fd7ee78c2dda854f3c4431ad62793"
+          }
+        },
+        {
+          "id": "com.pam:pamhc2foodcore:1.0.1@jar",
+          "name": "Pam's HarvestCraft 2 - Food Core",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 437559,
+            "url": "https://el-taberna.com/tabernalauncher/servers/Taberna7-1.18.2/forgemods/required/pamhc2foodcore-1.18.2-1.0.1.jar",
+            "MD5": "afa9a5c754a6ef6dd16c425c347d13cf"
+          }
+        },
+        {
+          "id": "com.pam:pamhc2foodextended:1.0@jar",
+          "name": "Pam's HarvestCraft 2 - Food Extended",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2079636,
+            "url": "https://el-taberna.com/tabernalauncher/servers/Taberna7-1.18.2/forgemods/required/pamhc2foodextended-1.18.2-1.0.0.jar",
+            "MD5": "a1a9e9c660367401fc0ca83a7edd3011"
+          }
+        },
+        {
+          "id": "com.pam:pamhc2trees:1.0.1@jar",
+          "name": "Pam's HarvestCraft 2 - Trees",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 553166,
+            "url": "https://el-taberna.com/tabernalauncher/servers/Taberna7-1.18.2/forgemods/required/pamhc2trees-1.18.2-1.0.1.jar",
+            "MD5": "4f9825358ed6f14a43bbd7ffd21325f8"
+          }
+        },
+        {
+          "id": "net.rocketpowered.connector:rocketconnector:1.18.2-0.0.11@jar",
+          "name": "Rocket Connector",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 4664818,
+            "url": "https://el-taberna.com/tabernalauncher/servers/Taberna7-1.18.2/forgemods/required/rocket-connector-1.18.2-0.0.11-all.jar",
+            "MD5": "2922a9fe8cff9bcaf94b0ce48478f3fa"
+          }
+        },
+        {
+          "id": "com.tiviacz:travelersbackpack:7.1.8@jar",
+          "name": "Traveler's Backpack",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 423829,
+            "url": "https://el-taberna.com/tabernalauncher/servers/Taberna7-1.18.2/forgemods/required/TravelersBackpack-1.18.2-7.1.8.jar",
+            "MD5": "2284055681b058fa672cdd8cdcee0fb6"
+          }
+        },
+        {
+          "id": "rocketconnector-client.toml",
+          "name": "rocketconnector-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 47,
+            "url": "https://el-taberna.com/tabernalauncher/servers/Taberna7-1.18.2/files/config/rocketconnector-client.toml",
+            "MD5": "e79ce3e44631384a1905622b1b0a61ca",
+            "path": "config/rocketconnector-client.toml"
+          }
+        },
+        {
+          "id": "rocketconnector-common.toml",
+          "name": "rocketconnector-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 82,
+            "url": "https://el-taberna.com/tabernalauncher/servers/Taberna7-1.18.2/files/config/rocketconnector-common.toml",
+            "MD5": "eeb945f1bafe8857884f2b227034efce",
+            "path": "config/rocketconnector-common.toml"
+          }
+        },
+        {
+          "id": "news.xml",
+          "name": "news.xml",
+          "type": "File",
+          "artifact": {
+            "size": 103,
+            "url": "https://el-taberna.com/tabernalauncher/servers/Taberna7-1.18.2/files/news.xml",
+            "MD5": "82b13bdd2eafebddfd202b3f4b910284",
+            "path": "news.xml"
+          }
+        },
+        {
+          "id": "survival_servers.json",
+          "name": "survival_servers.json",
+          "type": "File",
+          "artifact": {
+            "size": 119,
+            "url": "https://el-taberna.com/tabernalauncher/servers/Taberna7-1.18.2/files/survival_servers.json",
+            "MD5": "299079b23733f36aee06f1ba54255e00",
+            "path": "survival_servers.json"
+          }
+        }
+      ]
+    }
+  ]
+}
