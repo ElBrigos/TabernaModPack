@@ -1,0 +1,6 @@
+[
+  {
+    "mob": ["minecraft:skeleton","minecraft:zombie","minecraft:creeper","minecraft:spider","minecraft:enderman","minecraft:witch","minecraft.drowned"],
+    "result": "deny"
+  }
+]
