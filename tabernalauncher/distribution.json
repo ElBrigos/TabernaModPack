@@ -9,10 +9,10 @@
   "servers": [
     {
       "id": "Taberna6-1.16.5",
-      "name": "Taberna 6 (Minecraft 1.16.5)",
-      "description": "Taberna 6 fonctionne sous Minecraft 1.16.5 (Forge v36.2.39)",
+      "name": "Taberna6 (Minecraft 1.16.5)",
+      "description": "Taberna6 Running Minecraft 1.16.5 (Forge v36.2.39)",
       "icon": "https://el-taberna.com/tabernalauncher/servers/Taberna6-1.16.5/tabernalauncher.png",
-      "version": "6.9.0",
+      "version": "1.0.0",
       "address": "localhost:25565",
       "minecraftVersion": "1.16.5",
       "discord": {
@@ -991,8 +991,8 @@
     },
     {
       "id": "Taberna7-1.18.2",
-      "name": "Taberna 7 (Minecraft 1.18.2)",
-      "description": "Taberna 7 fonctionne sous Minecraft 1.18.2 (Forge v40.1.73)",
+      "name": "tabernalauncher (Minecraft 1.18.2)",
+      "description": "tabernalauncher Running Minecraft 1.18.2 (Forge v40.1.73)",
       "icon": "https://el-taberna.com/tabernalauncher/servers/Taberna7-1.18.2/tabernalauncher.png",
       "version": "1.0.0",
       "address": "serveur.tabernacraft.com:25565",
@@ -1002,7 +1002,7 @@
         "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
         "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
       },
-      "mainServer": true,
+      "mainServer": false,
       "autoconnect": false,
       "modules": [
         {
@@ -1035,15 +1035,6 @@
                 "url": "https://el-taberna.com/tabernalauncher/repo/lib/net/minecraftforge/javafmllanguage/1.18.2-40.1.73/javafmllanguage-1.18.2-40.1.73.jar"
               },
               "subModules": []
-            },
-			{
-              "id": "net.minecraftforge:lowcodelanguage:1.18.2-40.1.73",
-              "name": "Minecraft Forge (lowcodelanguage:1.18.2-40.1.73)",
-              "type": "Library",
-              "artifact": {
-                "size": 7382,
-                "MD5": "fa6db76b1e069fdc7535b2adc9179b26",
-                "url": "https://el-taberna.com/tabernalauncher/repo/lib/net/minecraftforge/lowcodelanguage/1.18.2-40.1.73/lowcodelanguage-1.18.2-40.1.73.jar"
             },
             {
               "id": "net.minecraftforge:mclanguage:1.18.2-40.1.73",
@@ -1611,6 +1602,16 @@
             "size": 423829,
             "url": "https://el-taberna.com/tabernalauncher/servers/Taberna7-1.18.2/forgemods/required/TravelersBackpack-1.18.2-7.1.8.jar",
             "MD5": "2284055681b058fa672cdd8cdcee0fb6"
+          }
+        },
+        {
+          "id": "com.sk89q:worldedit:7.2.10+1742f98@jar",
+          "name": "WorldEdit",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 5500682,
+            "url": "https://el-taberna.com/tabernalauncher/servers/Taberna7-1.18.2/forgemods/required/worldedit-mod-7.2.10.jar",
+            "MD5": "862cec57e297ec8f97f74745c2e8b905"
           }
         },
         {
