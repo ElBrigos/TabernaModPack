@@ -563,13 +563,13 @@
           }
         },
         {
-          "id": "generated.forgemod:u_team_core:fabric-1.18.2-4.0.0.3@jar",
-          "name": "U_team_core",
+          "id": "info.u_team.u_team_core:uteamcore:4.0.1.216@jar",
+          "name": "U Team Core",
           "type": "ForgeMod",
           "artifact": {
-            "size": 176018,
-            "url": "https://el-taberna.com/tabernalauncher/servers/Taberna7-1.18.2/forgemods/required/u_team_core-fabric-1.18.2-4.0.0.3.jar",
-            "MD5": "82ee0e7fd79cd47626446abb877c7e7b"
+            "size": 400134,
+            "url": "https://el-taberna.com/tabernalauncher/servers/Taberna7-1.18.2/forgemods/required/u_team_core-1.18.2-4.0.1.216.jar",
+            "MD5": "f9d3496b7498df3b97c78be0986db9aa"
           }
         },
         {
