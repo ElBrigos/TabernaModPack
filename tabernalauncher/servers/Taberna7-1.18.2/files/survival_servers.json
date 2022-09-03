@@ -1,7 +1,12 @@
 [
     {
-        "map": "Atlantis",
+        "map": "Atlanta Shores",
         "hostName": "serveur.tabernacraft.com",
         "port": 25565
     },
+    {
+        "map": "Atlanta Shores",
+        "hostName": "serveur.tabernacraft.com",
+        "port": 25570
+    },	
 ]
