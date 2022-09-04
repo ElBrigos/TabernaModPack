@@ -1,16 +1,16 @@
 {
   "$schema": "file:///C:/Users/fox-s/Desktop/Nebula-master/tabernalauncher/schemas/ServerMetaSchema.schema.json",
   "meta": {
-    "version": "1.0.0",
-    "name": "tabernalauncher (Minecraft 1.18.2)",
-    "description": "tabernalauncher Running Minecraft 1.18.2 (Forge v40.1.73)",
+    "version": "1.0.2",
+    "name": "Taberna 7 (Minecraft 1.18.2)",
+    "description": "Taberna 7 fonctionne sous Minecraft 1.18.2 (Forge v40.1.73)",
     "address": "serveur.tabernacraft.com:25565",
     "discord": {
       "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
       "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
       "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
     },
-    "mainServer": false,
+    "mainServer": true,
     "autoconnect": false
   },
   "forge": {

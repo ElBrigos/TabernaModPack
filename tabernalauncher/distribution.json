@@ -12,7 +12,7 @@
       "name": "Taberna 7 (Minecraft 1.18.2)",
       "description": "Taberna 7 fonctionne sous Minecraft 1.18.2 (Forge v40.1.73)",
       "icon": "https://el-taberna.com/tabernalauncher/servers/Taberna7-1.18.2/tabernalauncher.png",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "address": "serveur.tabernacraft.com:25565",
       "minecraftVersion": "1.18.2",
       "discord": {
@@ -404,6 +404,16 @@
           }
         },
         {
+          "id": "com.natamus:bottleyourxp:1.7@jar",
+          "name": "Bottle Your Xp",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 7982,
+            "url": "https://el-taberna.com/tabernalauncher/servers/Taberna7-1.18.2/forgemods/required/bottleyourxp_1.18.2-1.7.jar",
+            "MD5": "4389d1750b99339af6a3fa7eface800a"
+          }
+        },
+        {
           "id": "com.mrcrayfish.furniture:cfm:7.0.0-pre29@jar",
           "name": "MrCrayfish's Furniture Mod",
           "type": "ForgeMod",
@@ -421,6 +431,26 @@
             "size": 316595,
             "url": "https://el-taberna.com/tabernalauncher/servers/Taberna7-1.18.2/forgemods/required/cityblocks-1.4.4.jar",
             "MD5": "1ab555d57bcb8f50d1979904b85477dc"
+          }
+        },
+        {
+          "id": "com.blamejared:clumps:8.0.0+15@jar",
+          "name": "Clumps",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 16764,
+            "url": "https://el-taberna.com/tabernalauncher/servers/Taberna7-1.18.2/forgemods/required/Clumps-forge-1.18.2-8.0.0+15.jar",
+            "MD5": "dbb2541dafc9bee8404e7c076058ebe7"
+          }
+        },
+        {
+          "id": "com.natamus:collective:4.50@jar",
+          "name": "Collective",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 147921,
+            "url": "https://el-taberna.com/tabernalauncher/servers/Taberna7-1.18.2/forgemods/required/collective-1.18.2-4.50.jar",
+            "MD5": "69dc488a743a7515ba232a7b6a5a90fe"
           }
         },
         {
@@ -594,6 +624,16 @@
           }
         },
         {
+          "id": "de.maxhenkel:voicechat:1.18.2-2.3.8@jar",
+          "name": "Simple Voice Chat",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 8009081,
+            "url": "https://el-taberna.com/tabernalauncher/servers/Taberna7-1.18.2/forgemods/required/voicechat-forge-1.18.2-2.3.8.jar",
+            "MD5": "92208b64fedd055b82360d7f188d5d07"
+          }
+        },
+        {
           "id": "spawn.json",
           "name": "spawn.json",
           "type": "File",
@@ -631,10 +671,21 @@
           "name": "news.xml",
           "type": "File",
           "artifact": {
-            "size": 175,
+            "size": 238,
             "url": "https://el-taberna.com/tabernalauncher/servers/Taberna7-1.18.2/files/news.xml",
-            "MD5": "c86c7264411249ecb7ceadd074866af9",
+            "MD5": "929abd42ac51a12e84ec1fa498594620",
             "path": "news.xml"
+          }
+        },
+        {
+          "id": "craftingdead.zip",
+          "name": "craftingdead.zip",
+          "type": "File",
+          "artifact": {
+            "size": 1979269,
+            "url": "https://el-taberna.com/tabernalauncher/servers/Taberna7-1.18.2/files/resourcepacks/craftingdead.zip",
+            "MD5": "495c0cefe93f2cd4c0f0f76fe6e806a0",
+            "path": "resourcepacks/craftingdead.zip"
           }
         },
         {
