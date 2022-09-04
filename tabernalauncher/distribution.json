@@ -12,7 +12,7 @@
       "name": "Taberna 7 (Minecraft 1.18.2)",
       "description": "Taberna 7 fonctionne sous Minecraft 1.18.2 (Forge v40.1.73)",
       "icon": "https://el-taberna.com/tabernalauncher/servers/Taberna7-1.18.2/tabernalauncher.png",
-      "version": "1.0.2",
+      "version": "1.0.3",
       "address": "serveur.tabernacraft.com:25565",
       "minecraftVersion": "1.18.2",
       "discord": {
@@ -591,6 +591,19 @@
             "size": 799048,
             "url": "https://el-taberna.com/tabernalauncher/servers/Taberna7-1.18.2/forgemods/required/mcw-windows-2.0.3-mc1.18.2.jar",
             "MD5": "f74db38c021a50933e8c81366093634f"
+          }
+        },
+        {
+          "id": "net.optifine:optifine:1.18.2_HD_U_H7@jar",
+          "name": "OptiFine",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 6115048,
+            "url": "https://el-taberna.com/tabernalauncher/servers/Taberna7-1.18.2/forgemods/optionalon/OptiFine_1.18.2_HD_U_H7_MOD.jar",
+            "MD5": "710b3b532a1557b64290b53933095357"
+          },
+          "required": {
+            "value": false
           }
         },
         {
