@@ -12,7 +12,7 @@
       "name": "Taberna 7 (Minecraft 1.18.2)",
       "description": "Taberna 7 fonctionne sous Minecraft 1.18.2 (Forge v40.1.73)",
       "icon": "https://el-taberna.com/tabernalauncher/servers/Taberna7-1.18.2/tabernalauncher.png",
-      "version": "1.0.3",
+      "version": "1.0.2",
       "address": "serveur.tabernacraft.com:25565",
       "minecraftVersion": "1.18.2",
       "discord": {
@@ -53,17 +53,6 @@
                 "url": "https://el-taberna.com/tabernalauncher/repo/lib/net/minecraftforge/javafmllanguage/1.18.2-40.1.73/javafmllanguage-1.18.2-40.1.73.jar"
               },
               "subModules": []
-            },
-			{
-              "id": "net.minecraftforge:lowcodelanguage:1.18.2-40.1.73",
-              "name": "Minecraft Forge (lowcodelanguage:1.18.2-40.1.73)",
-              "type": "Library",
-              "artifact": {
-                "size": 7382,
-                "MD5": "fa6db76b1e069fdc7535b2adc9179b26",
-                "url": "https://el-taberna.com/tabernalauncher/repo/lib/net/minecraftforge/lowcodelanguage/1.18.2-40.1.73/lowcodelanguage-1.18.2-40.1.73.jar"
-              },
-			  "subModules": []
             },
             {
               "id": "net.minecraftforge:mclanguage:1.18.2-40.1.73",
